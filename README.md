@@ -1,7 +1,7 @@
 # isend-mode
 
 `isend-mode` is an Emacs extension allowing interaction with code interpreters in `ansi-term` or
-`term` buffers. Some language-specific modes (*e.g* `python.el`) already provide similar features;
+`term` buffers. Some language-specific modes (e.g. `python.el`) already provide similar features;
 `isend-mode` does the same in a language-agnostic way.
 
 
@@ -24,7 +24,7 @@ Then, add the following lines in your Emacs initialization file (`.emacs` or `.e
 ## Basic usage
 
 The following example demonstrates using `isend-mode` to interact with a shell in an `ansi-term`
-buffer. Please note that any other interpreter could have been used (*e.g* python, perl or anything
+buffer. Please note that any other interpreter could have been used (e.g. python, perl or anything
 else) and `term` would have worked as well.
 
 
@@ -40,7 +40,7 @@ else) and `term` would have worked as well.
    
    
 3. Hitting `C-RET` will send the current line to the interpreter. If a region is active, all lines
-   spanned by the region will be sent (*i.e* no line will be only partially sent).
+   spanned by the region will be sent (i.e. no line will be only partially sent).
 
 
 ## Use cases
