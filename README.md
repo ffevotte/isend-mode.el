@@ -52,6 +52,18 @@ else) and `term` would have worked as well.
   list of shell commands but don't want to formally handle all possible errors in a script.
 
 
+## Customization
+
+`isend-mode` can be customized with `M-x customize-group RET isend RET`
+
+The variables which can be set to customize `isend`'s behaviour are:
+
+- `isend-skip-empty-lines` : when non-nil (default), `isend` will skip empty lines (i.e. lines
+  containing pnly whitespace). However, this can be problematic for interpreters who care about
+  whitespace such as `python`. In such cases, `isend-skip-empty-lines` should be set to `nil`.
+
+
+
 ## Contributing
 
 If you make improvements to this code or have suggestions, please do not hesitate to fork the

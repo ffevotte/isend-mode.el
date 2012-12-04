@@ -27,6 +27,17 @@
 
 ;;; Code:
 
+;;;###autoload
+(defgroup isend nil
+  "Interactively send parts of an Emacs buffer to an interpreter."
+  :group 'processes)
+
+;;;###autoload
+(defcustom isend-skip-empty-lines t
+  "If non-nil, `isend-send' skips empty lines (i.e. lines containing only spaces)"
+  :group 'isend
+  :type  'boolean)
+
 (define-minor-mode isend-mode
   "Toggle ISend (Interactive Send) mode\\<isend-mode-map>.
 With no argument, this command toggles the mode.
@@ -53,9 +64,12 @@ buffer (such as `ansi-term' or `eshell')
 (defun isend-associate (buffername)
  "Set the buffer to which commands will be sent using `isend-send'.
 This should usually be something like '*ansi-term*' or '*terminal*'."
- (interactive "b")
+ (interactive "bAssociate buffer to terminal: ")
  (setq isend-command-buffer buffername)
  (isend-mode 1))
+
+;;;###autoload
+(defalias 'isend 'isend-associate)
 
 (defun isend-send ()
  "Send the current line to a terminal.
@@ -81,8 +95,10 @@ sent."
        (cond ((eq major-mode 'term-mode)(term-send-input))
              (t (funcall (key-binding (kbd "RET")))))))
    (goto-char (line-end-position))
-   (when (search-forward-regexp "." nil t)
-     (goto-char (line-beginning-position)))))
+   (if isend-skip-empty-lines
+       (when (search-forward-regexp "." nil t)
+         (goto-char (line-beginning-position)))
+     (beginning-of-line 2))))
 
 (provide 'isend-mode)
 
