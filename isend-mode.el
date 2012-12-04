@@ -1,4 +1,4 @@
-;;; isend.el --- Interactively send parts of an Emacs buffer to an interpreter
+;;; isend-mode.el --- Interactively send parts of an Emacs buffer to an interpreter
 
 ;; Copyright (C) 2012 François Févotte
 

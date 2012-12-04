@@ -17,7 +17,7 @@ Then, add the following lines in your Emacs initialization file (`.emacs` or `.e
 
 ```lisp
 (add-to-list 'load-path "/path/to/isend-mode")
-(require 'isend-mode)
+(require 'isend)
 ```
 
 
