@@ -34,7 +34,7 @@
 
 ;;;###autoload
 (defcustom isend-skip-empty-lines t
-  "If non-nil, `isend-send' skips empty lines (i.e. lines containing only spaces)"
+  "If non-nil, `isend-send' skips empty lines (i.e. lines containing only spaces)."
   :group 'isend
   :type  'boolean)
 
@@ -81,19 +81,36 @@ sent."
    (error "No associated terminal buffer. You should run `isend-associate'"))
  (let ((begin (point))
        (end   (point)))
-   (when (use-region-p)
+   (cond
+    ;; If the region is active, use region boundaries
+    ((use-region-p)
      (setq begin (region-beginning)
            end   (- (region-end) 1)))
+
+    ;; If the region is not active and `isend-skip-empty-lines' is non-nil,
+    ;; move forward to the first non-empty line
+    (isend-skip-empty-lines
+     (search-forward-regexp "." nil t)
+     (setq begin (point)
+           end   (point))))
+
+   ;; Expand the region to span whole lines
    (goto-char begin)
    (setq begin (line-beginning-position))
    (goto-char end)
    (setq end (line-end-position))
+
+   ;; Actually insert the region into the associated buffer
+   ;; and send it.
    (let ((command (buffer-substring begin end)))
      (with-current-buffer isend-command-buffer
        (goto-char (point-max))
        (insert command)
        (cond ((eq major-mode 'term-mode)(term-send-input))
              (t (funcall (key-binding (kbd "RET")))))))
+
+   ;; Move point to the next line
+   ;; (skip empty lines if `isend-skip-empty-lines' is non-nil)
    (goto-char (line-end-position))
    (if isend-skip-empty-lines
        (when (search-forward-regexp "." nil t)
