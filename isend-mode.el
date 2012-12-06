@@ -34,7 +34,25 @@
 
 ;;;###autoload
 (defcustom isend-skip-empty-lines t
-  "If non-nil, `isend-send' skips empty lines (i.e. lines containing only spaces)."
+  "If non-nil, `isend-send' skips empty lines (i.e. lines containing only spaces).
+  Note that this is effective only for sending single lines. To strip whitespace 
+  from sent regions use `isend-strip-empty-lines'."
+  :group 'isend
+  :type  'boolean)
+
+;;;###autoload
+(defcustom isend-strip-empty-lines nil
+  "If non-nil, `isend-send' strips empty lines (i.e. lines containing only spaces).
+  Note that this works when sending an entire region. If enabled, all lines containing
+  whitespace only will be stripped from the region before it is sent."
+  :group 'isend
+  :type  'boolean)
+
+;;;###autoload
+(defcustom isend-end-with-empty-line nil
+  "If non-nil, `isend-send' appends an empty line to everything you send.
+  This is useful, for example, in working with python code,
+  in which whitespace terminates definitions."
   :group 'isend
   :type  'boolean)
 
@@ -102,10 +120,16 @@ sent."
 
    ;; Actually insert the region into the associated buffer
    ;; and send it.
-   (let ((command (buffer-substring begin end)))
+   ;; the regexp strips empty lines from the command to be sent
+   (let ((command (if isend-strip-empty-lines
+		      (replace-regexp-in-string
+		       "\n\\([\s]+\\|\n+\\)?+\n" "\n"
+		       (buffer-substring begin end))
+		      (buffer-substring begin end))))
      (with-current-buffer isend-command-buffer
        (goto-char (point-max))
-       (insert command)
+       (if isend-end-with-empty-line (insert (concat command "\n"))
+					(insert command))
        (cond ((eq major-mode 'term-mode)(term-send-input))
              (t (funcall (key-binding (kbd "RET")))))))
 
