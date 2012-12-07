@@ -27,6 +27,9 @@
 
 ;;; Code:
 
+;; Get rid of warning about `term-send-input' not being defined.
+(require 'term)
+
 
 
 ;; Customization variables
@@ -110,19 +113,20 @@ This should usually be something like '*ansi-term*' or '*terminal*'."
 
 (defun isend-send ()
  "Send the current line to a terminal.
-Use `send-command-setbuffer' to set the associated terminal
-buffer. If the region is active, all lines spanned by it are
-sent."
+Use `isend-associate' to set the associated terminal buffer. If
+the region is active, all lines spanned by it are sent."
  (interactive)
  (when (not (boundp 'isend--command-buffer))
    (error "No associated terminal buffer. You should run `isend-associate'"))
 
  (let* ((region-active (region-active-p))
 
+        ;; The region to be sent
         (bds   (isend--region-boundaries))
         (begin (car bds))
         (end   (cdr bds))
 
+        ;; Buffers involved
         (origin (current-buffer))
         (destination isend--command-buffer)
         filtered)
@@ -135,11 +139,6 @@ sent."
      ;; Apply filters on the region
      (when (and region-active isend-strip-empty-lines)
        (delete-matching-lines "^[[:space:]]*$" (point-min) (point-max)))
-
-     (when (and region-active isend-delete-indentation)
-       (goto-char (point-min))
-       (back-to-indentation)
-       (indent-rigidly (point-min) (point-max) (- (current-column))))
 
      (when (and region-active isend-end-with-empty-line)
        (goto-char (point-max))
@@ -167,6 +166,8 @@ sent."
 ;; Helper functions
 
 (defun isend--region-seed ()
+  "Return a 'seed' of the region to be sent.
+The result is a cons cell of the form (beg . end)"
   (cond
    ;; If the region is active, use region boundaries
    ((use-region-p)
@@ -186,6 +187,9 @@ sent."
           (point)))))
 
 (defun isend--region-boundaries ()
+  "Return the boundaries of the region to be sent.
+The result is a cons cell of the form (beg . end)
+The region is expanded so that no line is only partially sent."
   (let* ((bds (isend--region-seed))
          (beg (car bds))
          (end (cdr bds)))
@@ -201,7 +205,6 @@ sent."
 
 (defun isend--next-line ()
   "Move point to the next line.
-
 Empty lines are skipped if `isend-skip-empty-lines' is non-nil."
   (goto-char (line-end-position))
   (if isend-skip-empty-lines

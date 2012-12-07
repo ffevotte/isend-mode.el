@@ -35,19 +35,20 @@ else) and `term` would have worked as well.
 
 2. Open a buffer with the code you want to execute, and associate it to the interpreter buffer using
    the `isend-associate` command. For example:
-   
+
    `M-x isend-associate RET *ansi-term* RET`
-   
-   
+
+
 3. Hitting `C-RET` will send the current line to the interpreter. If a region is active, all lines
-   spanned by the region will be sent (i.e. no line will be only partially sent).
+   spanned by the region will be sent (i.e. no line will be only partially sent). Point is then
+   moved to the next non-empty line (but see configuration variable `isend-skip-empty-lines`).
 
 
 ## Use cases
 
 - **Interactive demo of a text-based program:** you prepare all the commands you want to run in a
   buffer and interactively send them to the interpreter as if you had typed them.
-  
+
 - **Running interpreted code step by step:** this is for example useful if you often run the same
   list of shell commands but don't want to formally handle all possible errors in a script.
 
@@ -58,10 +59,18 @@ else) and `term` would have worked as well.
 
 The variables which can be set to customize `isend`'s behaviour are:
 
-- `isend-skip-empty-lines` : when non-nil (default), `isend` will skip empty lines (i.e. lines
-  containing pnly whitespace). However, this can be problematic for interpreters who care about
-  whitespace such as `python`. In such cases, `isend-skip-empty-lines` should be set to `nil`.
+- `isend-skip-empty-lines`: after having sent something using `C-RET`, `isend` moves point to the
+  next line. If `isend-skip-empty-lines` is non-nil (default), `isend` will skip empty lines (i.e. lines
+  containing only whitespace) and position point on the first following non-empty line. Some
+  interpreters (like Python) care about empty lines. In such cases it might be useful to set
+  `isend-skip-empty-lines` to nil.
 
+- `isend-strip-empty-lines`: if non-nil, `isend` will remove empty (or whitespace-only) lines from
+  the region before sending it to the interpreter. Note that this only works when sending an entire
+  region (as opposed to a single line).
+
+- `isend-end-with-empty-line`: if non-nil, `isend` appends an empty line to regions sent. Note that
+  this only works when sending an entire region (as opposed to a single line).
 
 
 ## Contributing
@@ -71,6 +80,10 @@ repository or submit bug reports on [github](https://github.com/ffevotte/isend-m
 URL is:
 
     https://github.com/ffevotte/isend-mode.el.git
+
+
+Many thanks go to [James Porter](https://github.com/porterjamesj) for his contributions on empty
+lines handling.
 
 
 ## License
