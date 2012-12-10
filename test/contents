@@ -1,0 +1,10 @@
+line1
+line2
+   
+line4 -- the line above contained only space
+line5
+    line6     -- indented
+    line7     -- indented
+        line8 -- indented more
+    line9     -- indented
+line10
