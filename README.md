@@ -68,6 +68,11 @@ The variables which can be set to customize `isend`'s behaviour are:
 - `isend-strip-empty-lines`: if non-nil, `isend` will remove empty (or whitespace-only) lines from
   the region before sending it to the interpreter. Note that this only works when sending an entire
   region (as opposed to a single line).
+  
+- `isend-delete-indentation`: if non-nil, `isend` will delete indentation from all lines in the
+  region. Note that this only works when sending a region (as opposed to a single line). Relative
+  indentation w.r.t the first line is preserved. This is useful e.g. to send Python blocks outside
+  of there original context
 
 - `isend-end-with-empty-line`: if non-nil, `isend` appends an empty line to regions sent. Note that
   this only works when sending an entire region (as opposed to a single line).

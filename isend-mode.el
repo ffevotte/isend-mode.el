@@ -59,6 +59,16 @@ whitespace only will be stripped from the region before it is sent."
   :type  'boolean)
 
 ;;;###autoload
+(defcustom isend-delete-indentation nil
+  "If non-nil, `isend-send' deletes indentation in regions sent.
+
+Note that this only works when sending a region (as opposed to a
+single line). Relative indentation with respect to the first line
+in the region is preserved.
+
+This is useful to send e.g. Python blocks.")
+
+;;;###autoload
 (defcustom isend-end-with-empty-line nil
   "If non-nil, `isend-send' appends an empty line to everything you send.
 
@@ -140,6 +150,11 @@ the region is active, all lines spanned by it are sent."
      ;; Apply filters on the region
      (when (and region-active isend-strip-empty-lines)
        (delete-matching-lines "^[[:space:]]*$" (point-min) (point-max)))
+
+     (when (and region-active isend-delete-indentation)
+       (goto-char (point-min))
+       (back-to-indentation)
+       (indent-rigidly (point-min) (point-max) (- (current-column))))
 
      (when (and region-active isend-end-with-empty-line)
        (goto-char (point-max))

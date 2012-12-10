@@ -123,4 +123,41 @@ line10
 
 
 
+(message "Sending region with `isend-delete-indentation'")
+(assert (string=
+ (isend--test
+  (let ((isend-delete-indentation t))
+    (set-mark 20)
+    (activate-mark)
+    (goto-char 250)
+    (isend-send)))
+
+ "line4 -- the line above contained only space
+line5
+    line6     -- indented
+    line7     -- indented
+        line8 -- indented more
+    line9     -- indented
+line10
+"))
+
+
+
+(message "Sending region with `isend-delete-indentation'")
+(assert (string=
+ (isend--test
+  (let ((isend-delete-indentation t))
+    (set-mark 74)
+    (activate-mark)
+    (goto-char 157)
+    (isend-send)))
+
+ "line6     -- indented
+line7     -- indented
+    line8 -- indented more
+line9     -- indented
+"))
+
+
+
 (message "Isend -- all tests passed")
