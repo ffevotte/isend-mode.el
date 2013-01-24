@@ -77,6 +77,34 @@ The variables which can be set to customize `isend`'s behaviour are:
 - `isend-end-with-empty-line`: if non-nil, `isend` appends an empty line to regions sent. Note that
   this only works when sending an entire region (as opposed to a single line).
 
+- `isend-send-line-function` and `isend-send-region-function`: these are the functions called by
+  `isend` to send a line or a region respectively. These functions take as argument the name of a
+  buffer containing the text to be sent, and are responsible for copying this text to the
+  interpreter buffer.
+  
+  Possible values include:
+  - `insert-buffer-substring` (default) : simply insert the text into the buffer.
+  - `isend--ipython-paste` : copy the text to the clipoard, and evaluate `%paste` in the interpreter
+    buffer (where an `iPython` process is supposed to be running).
+  - `isend--ipython-cpaste` : insert the text within a `%cpaste` command (an `iPython` processes
+    is supposed to be running in the associated buffer).
+
+
+### Setup helpers
+
+A few helpers are provided to help setup `isend` when working with multiple languages:
+  
+```lisp
+;; If you work with shell scripts
+(add-hook 'isend-mode-hook 'isend-default-shell-setup)
+
+;; If you work with python scripts using the default python interpreter
+(add-hook 'isend-mode-hook 'isend-default-python-setup)
+
+;; If you work with python scripts using iPython
+(add-hook 'isend-mode-hook 'isend-default-ipython-setup)
+```
+
 
 ## Contributing
 
