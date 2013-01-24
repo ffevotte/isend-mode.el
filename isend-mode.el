@@ -112,32 +112,35 @@ Possible values include:
 ;;
 ;;   (add-hook 'isend-mode-hook 'isend-default-shell-setup)
 
+;;;###autoload
 (defun isend-default-shell-setup ()
   (when (eq major-mode 'sh-mode)
-    (set (make-local-variable isend-skip-empty-lines)     t)
-    (set (make-local-variable isend-strip-empty-lines)    nil)
-    (set (make-local-variable isend-delete-indentation)   nil)
-    (set (make-local-variable isend-end-with-empty-line)  nil)
-    (set (make-local-variable isend-send-line-function)   'insert-buffer-substring)
-    (set (make-local-variable isend-send-region-function) 'insert-buffer-substring)))
+    (set (make-local-variable 'isend-skip-empty-lines)     t)
+    (set (make-local-variable 'isend-strip-empty-lines)    nil)
+    (set (make-local-variable 'isend-delete-indentation)   nil)
+    (set (make-local-variable 'isend-end-with-empty-line)  nil)
+    (set (make-local-variable 'isend-send-line-function)   'insert-buffer-substring)
+    (set (make-local-variable 'isend-send-region-function) 'insert-buffer-substring)))
 
+;;;###autoload
 (defun isend-default-python-setup ()
   (when (eq major-mode 'python-mode)
-    (set (make-local-variable isend-skip-empty-lines)     nil)
-    (set (make-local-variable isend-strip-empty-lines)    t)
-    (set (make-local-variable isend-delete-indentation)   t)
-    (set (make-local-variable isend-end-with-empty-line)  t)
-    (set (make-local-variable isend-send-line-function)   'insert-buffer-substring)
-    (set (make-local-variable isend-send-region-function) 'insert-buffer-substring)))
+    (set (make-local-variable 'isend-skip-empty-lines)     nil)
+    (set (make-local-variable 'isend-strip-empty-lines)    t)
+    (set (make-local-variable 'isend-delete-indentation)   t)
+    (set (make-local-variable 'isend-end-with-empty-line)  t)
+    (set (make-local-variable 'isend-send-line-function)   'insert-buffer-substring)
+    (set (make-local-variable 'isend-send-region-function) 'insert-buffer-substring)))
 
+;;;###autoload
 (defun isend-default-ipython-setup ()
   (when (eq major-mode 'python-mode)
-    (set (make-local-variable isend-skip-empty-lines)     nil)
-    (set (make-local-variable isend-strip-empty-lines)    nil)
-    (set (make-local-variable isend-delete-indentation)   nil)
-    (set (make-local-variable isend-end-with-empty-line)  nil)
-    (set (make-local-variable isend-send-line-function)   'insert-buffer-substring)
-    (set (make-local-variable isend-send-region-function) 'isend--ipython-cpaste)))
+    (set (make-local-variable 'isend-skip-empty-lines)     nil)
+    (set (make-local-variable 'isend-strip-empty-lines)    nil)
+    (set (make-local-variable 'isend-delete-indentation)   nil)
+    (set (make-local-variable 'isend-end-with-empty-line)  nil)
+    (set (make-local-variable 'isend-send-line-function)   'insert-buffer-substring)
+    (set (make-local-variable 'isend-send-region-function) 'isend--ipython-cpaste)))
 
 
 
@@ -198,6 +201,14 @@ the region is active, all lines spanned by it are sent."
         (begin (car bds))
         (end   (cdr bds))
 
+        ;; Configuration variables values need to be taken from
+        ;; the origin buffer (they are potentially local)
+        (isend-strip-empty-lines-1    isend-strip-empty-lines)
+        (isend-delete-indentation-1   isend-delete-indentation)
+        (isend-end-with-empty-line-1  isend-end-with-empty-line)
+        (isend-send-region-function-1 isend-send-region-function)
+        (isend-send-line-function-1   isend-send-line-function)
+
         ;; Buffers involved
         (origin (current-buffer))
         (destination isend--command-buffer)
@@ -210,15 +221,15 @@ the region is active, all lines spanned by it are sent."
 
      ;; Apply filters on the region
      (when region-active
-       (when isend-strip-empty-lines
+       (when isend-strip-empty-lines-1
          (delete-matching-lines "^[[:space:]]*$" (point-min) (point-max)))
 
-       (when isend-delete-indentation
+       (when isend-delete-indentation-1
          (goto-char (point-min))
          (back-to-indentation)
          (indent-rigidly (point-min) (point-max) (- (current-column))))
 
-       (when isend-end-with-empty-line
+       (when isend-end-with-empty-line-1
          (goto-char (point-max))
          (insert "\n")))
 
@@ -227,8 +238,8 @@ the region is active, all lines spanned by it are sent."
        (goto-char (point-max))
 
        (if region-active
-           (funcall isend-send-region-function filtered)
-         (funcall isend-send-line-function filtered))
+           (funcall isend-send-region-function-1 filtered)
+         (funcall isend-send-line-function-1 filtered))
 
        (cond
         ;; Terminal buffer: specifically call `term-send-input'
@@ -298,14 +309,14 @@ Empty lines are skipped if `isend-skip-empty-lines' is non-nil."
   ""
   (insert "%cpaste\n")
   (insert-buffer-substring buf-name)
-  (insert "\n--\n")
+  (insert "\n--")
   (term-send-input))
 
 (defun isend--ipython-paste (buf-name)
   ""
   (with-current-buffer buf-name
     (clipboard-kill-ring-save (point-min) (point-max)))
-  (insert "%paste\n"))
+  (insert "%paste"))
 
 (provide 'isend-mode)
 
