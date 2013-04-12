@@ -31,7 +31,7 @@
 
 ;; Basic usage:
 
-;; 1. Open an `ansi-term' buffer where the interpeter will live.
+;; 1. Open an `ansi-term' buffer where the interpreter will live.
 ;;    For example:
 ;;
 ;;      M-x ansi-term RET /bin/sh RET
@@ -175,7 +175,7 @@ Possible values include:
 
 
 
-;; Minor mode definition and activation
+;; User interface
 
 (define-minor-mode isend-mode
   "Toggle ISend (Interactive Send) mode\\<isend-mode-map>.
@@ -214,8 +214,6 @@ This should usually be something like '*ansi-term*' or '*terminal*'."
 (defalias 'isend 'isend-associate)
 
 
-
-;; The main workhorse; `isend-send'
 
 (defun isend-send ()
  "Send the current line to a terminal.
