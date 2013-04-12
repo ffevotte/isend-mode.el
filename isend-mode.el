@@ -222,8 +222,7 @@ This should usually be something like '*ansi-term*' or '*terminal*'."
 Use `isend-associate' to set the associated terminal buffer. If
 the region is active, all lines spanned by it are sent."
  (interactive)
- (when (not (boundp 'isend--command-buffer))
-   (error "No associated terminal buffer. You should run `isend-associate'"))
+ (isend--check)
 
  (let* ((region-active (region-active-p))
 
@@ -286,8 +285,19 @@ the region is active, all lines spanned by it are sent."
  (isend--next-line))
 
 
+
+(defun isend-display-buffer ()
+  (interactive)
+  (isend--check)
+  (display-buffer isend--command-buffer))
+
 
 ;; Helper functions
+
+(defun isend--check ()
+  "Check whether the current buffer has been associated to a terminal."
+  (when (not (boundp 'isend--command-buffer))
+    (error "No associated terminal buffer. You should run `isend-associate'")))
 
 (defun isend--region-seed ()
   "Return a 'seed' of the region to be sent.
