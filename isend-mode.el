@@ -72,6 +72,12 @@
   :group 'processes)
 
 ;;;###autoload
+(defcustom isend-forward-line t
+  "If non-nil, `isend-send' advances by one line after sending content."
+  :group 'isend
+  :type  'boolean)
+
+;;;###autoload
 (defcustom isend-skip-empty-lines t
   "If non-nil, `isend-send' skips empty lines (i.e. lines containing only spaces).
 
@@ -103,7 +109,7 @@ This is useful to send e.g. Python blocks.")
 (defcustom isend-end-with-empty-line nil
   "If non-nil, `isend-send' appends an empty line to everything you send.
 
-This is useful, for example, in working with python code,
+This is useful, for example, when working with python code,
 in which whitespace terminates definitions."
   :group 'isend
   :type  'boolean)
@@ -280,7 +286,8 @@ the region is active, all lines spanned by it are sent."
          (funcall (key-binding (kbd "RET"))))))))
 
  ;; Move point to the next line
- (isend--next-line))
+ (when isend-forward-line
+   (isend--next-line)))
 
 
 

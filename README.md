@@ -59,8 +59,10 @@ else) and `term` would have worked as well.
 
 The variables which can be set to customize `isend`'s behaviour are:
 
-- `isend-skip-empty-lines`: after having sent something using `C-RET`, `isend` moves point to the
-  next line. If `isend-skip-empty-lines` is non-nil (default), `isend` will skip empty lines (i.e. lines
+- `isend-forward-line`: if non-nil (default), `isend` advances to the next line after having sent
+  some content using `C-RET`.
+
+- `isend-skip-empty-lines`: if non-nil (default), `isend` will skip empty lines (i.e. lines
   containing only whitespace) and position point on the first following non-empty line. Some
   interpreters (like Python) care about empty lines. In such cases it might be useful to set
   `isend-skip-empty-lines` to nil.
