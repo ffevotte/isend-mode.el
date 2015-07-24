@@ -1,0 +1,1021 @@
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
+ font-family='monospace' font-size='12' fill='#000000' width='658' height='374'>
+<!-- Cycling -->
+<text>
+ <set id='start' attributeName='visibility' attributeType='XML' to='visible'  begin='0; progress.end' dur='0'/>
+</text>
+<!-- Advertisement -->
+<a xlink:href='http://github.com/ffevotte/script2svg' xlink:show='new'>
+ <text x='645' y='373' transform='rotate(-90, 645, 373)' fill='#000000'  dominant-baseline='text-before-edge' font-size='9'>
+  Produced by script2svg
+ </text>
+</a>
+<!-- Progress bar -->
+<rect x='1' y='368.5' width='640' height='5' style='stroke:#0000aa; fill:none' />
+<rect x='1' y='368.5' height='5' fill='#0000aa'>
+ <animate id='progress' attributeName='width' attributeType='XML'  from='0' to='640' fill='freeze'  begin='start.begin' dur='24.163' />
+</rect>
+<!-- Background -->
+<rect x='0' y='0' width='642' height='362' fill='#ffffff'/>
+<g display='none'>
+ <rect x='1' y='1' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.027846' dur='0.072304'/>
+</g>
+<g display='none'>
+ <rect x='1' y='1' width='640' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.10015' dur='24.0628'/>
+</g>
+<g display='none'>
+ <rect x='1' y='1' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+24.163' dur='1'/>
+</g>
+<g display='none'>
+ <rect x='1' y='16' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.10015' dur='0.229178'/>
+</g>
+<g display='none'>
+ <rect x='1' y='16' width='8' height='15' fill='#000000'/><rect x='313' y='16' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='1.35394'/>
+</g>
+<g display='none'>
+ <rect x='313' y='16' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+1.68327' dur='6.16313'/>
+</g>
+<g display='none'>
+ <rect x='1' y='16' width='8' height='15' fill='#000000'/><rect x='313' y='16' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+7.8464' dur='1.03125'/>
+</g>
+<g display='none'>
+ <rect x='313' y='16' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+8.87766' dur='15.2853'/>
+</g>
+<g display='none'>
+ <rect x='313' y='31' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='23.8337'/>
+</g>
+<g display='none'>
+ <rect x='313' y='46' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='8.54833'/>
+</g>
+<g display='none'>
+ <rect x='1' y='46' width='8' height='15' fill='#aa0000'/><rect x='313' y='46' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+8.87766' dur='1.13503'/>
+</g>
+<g display='none'>
+ <rect x='313' y='46' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+10.0127' dur='14.1503'/>
+</g>
+<g display='none'>
+ <rect x='313' y='61' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='9.68336'/>
+</g>
+<g display='none'>
+ <rect x='1' y='61' width='8' height='15' fill='#0000aa'/><rect x='313' y='61' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+10.0127' dur='1.17899'/>
+</g>
+<g display='none'>
+ <rect x='313' y='61' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+11.1917' dur='12.9713'/>
+</g>
+<g display='none'>
+ <rect x='313' y='76' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='10.8624'/>
+</g>
+<g display='none'>
+ <rect x='1' y='76' width='8' height='15' fill='#0000aa'/><rect x='313' y='76' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+11.1917' dur='1.16287'/>
+</g>
+<g display='none'>
+ <rect x='313' y='76' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+12.3546' dur='6.33911'/>
+</g>
+<g display='none'>
+ <rect x='1' y='76' width='312' height='15' fill='#0000aa'/><rect x='313' y='76' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.67731'/>
+</g>
+<g display='none'>
+ <rect x='313' y='76' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.371' dur='2.79202'/>
+</g>
+<g display='none'>
+ <rect x='313' y='91' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='18.3643'/>
+</g>
+<g display='none'>
+ <rect x='1' y='91' width='312' height='15' fill='#0000aa'/><rect x='313' y='91' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.67731'/>
+</g>
+<g display='none'>
+ <rect x='313' y='91' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.371' dur='2.79202'/>
+</g>
+<g display='none'>
+ <rect x='313' y='106' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='18.3643'/>
+</g>
+<g display='none'>
+ <rect x='1' y='106' width='312' height='15' fill='#0000aa'/><rect x='313' y='106' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.67731'/>
+</g>
+<g display='none'>
+ <rect x='313' y='106' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.371' dur='2.79202'/>
+</g>
+<g display='none'>
+ <rect x='313' y='121' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='12.0252'/>
+</g>
+<g display='none'>
+ <rect x='1' y='121' width='8' height='15' fill='#aa0000'/><rect x='313' y='121' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+12.3546' dur='1.83707'/>
+</g>
+<g display='none'>
+ <rect x='1' y='121' width='312' height='15' fill='#0000aa'/><rect x='313' y='121' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+14.1916' dur='2.01194'/>
+</g>
+<g display='none'>
+ <rect x='313' y='121' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2036' dur='2.49009'/>
+</g>
+<g display='none'>
+ <rect x='1' y='121' width='312' height='15' fill='#0000aa'/><rect x='313' y='121' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.67731'/>
+</g>
+<g display='none'>
+ <rect x='313' y='121' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.371' dur='2.79202'/>
+</g>
+<g display='none'>
+ <rect x='313' y='136' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='13.8623'/>
+</g>
+<g display='none'>
+ <rect x='1' y='136' width='312' height='15' fill='#0000aa'/><rect x='313' y='136' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+14.1916' dur='2.01194'/>
+</g>
+<g display='none'>
+ <rect x='313' y='136' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2036' dur='2.49009'/>
+</g>
+<g display='none'>
+ <rect x='1' y='136' width='312' height='15' fill='#0000aa'/><rect x='313' y='136' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.67731'/>
+</g>
+<g display='none'>
+ <rect x='313' y='136' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.371' dur='2.79202'/>
+</g>
+<g display='none'>
+ <rect x='313' y='151' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='13.8623'/>
+</g>
+<g display='none'>
+ <rect x='1' y='151' width='312' height='15' fill='#0000aa'/><rect x='313' y='151' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+14.1916' dur='2.01194'/>
+</g>
+<g display='none'>
+ <rect x='313' y='151' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2036' dur='2.49009'/>
+</g>
+<g display='none'>
+ <rect x='1' y='151' width='312' height='15' fill='#0000aa'/><rect x='313' y='151' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.67731'/>
+</g>
+<g display='none'>
+ <rect x='313' y='151' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.371' dur='2.79202'/>
+</g>
+<g display='none'>
+ <rect x='313' y='166' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='13.8623'/>
+</g>
+<g display='none'>
+ <rect x='1' y='166' width='312' height='15' fill='#0000aa'/><rect x='313' y='166' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+14.1916' dur='2.01194'/>
+</g>
+<g display='none'>
+ <rect x='313' y='166' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2036' dur='2.49009'/>
+</g>
+<g display='none'>
+ <rect x='1' y='166' width='8' height='15' fill='#000000'/><rect x='313' y='166' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='5.46933'/>
+</g>
+<g display='none'>
+ <rect x='313' y='181' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='13.8623'/>
+</g>
+<g display='none'>
+ <rect x='1' y='181' width='312' height='15' fill='#0000aa'/><rect x='313' y='181' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+14.1916' dur='2.01194'/>
+</g>
+<g display='none'>
+ <rect x='313' y='181' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2036' dur='7.95942'/>
+</g>
+<g display='none'>
+ <rect x='313' y='196' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='13.8623'/>
+</g>
+<g display='none'>
+ <rect x='1' y='196' width='312' height='15' fill='#0000aa'/><rect x='313' y='196' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+14.1916' dur='2.01194'/>
+</g>
+<g display='none'>
+ <rect x='313' y='196' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2036' dur='7.95942'/>
+</g>
+<g display='none'>
+ <rect x='313' y='211' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='13.8623'/>
+</g>
+<g display='none'>
+ <rect x='1' y='211' width='8' height='15' fill='#000000'/><rect x='313' y='211' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+14.1916' dur='2.01194'/>
+</g>
+<g display='none'>
+ <rect x='313' y='211' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2036' dur='7.95942'/>
+</g>
+<g display='none'>
+ <rect x='313' y='226' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='23.8337'/>
+</g>
+<g display='none'>
+ <rect x='313' y='241' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='15.8742'/>
+</g>
+<g display='none'>
+ <rect x='1' y='241' width='8' height='15' fill='#aa0000'/><rect x='313' y='241' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2036' dur='2.49009'/>
+</g>
+<g display='none'>
+ <rect x='313' y='241' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='5.46933'/>
+</g>
+<g display='none'>
+ <rect x='313' y='256' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='23.8337'/>
+</g>
+<g display='none'>
+ <rect x='313' y='271' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='23.8337'/>
+</g>
+<g display='none'>
+ <rect x='313' y='286' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='23.8337'/>
+</g>
+<g display='none'>
+ <rect x='313' y='301' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='23.8337'/>
+</g>
+<g display='none'>
+ <rect x='1' y='316' width='640' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.115791' dur='0.213537'/>
+</g>
+<g display='none'>
+ <rect x='313' y='316' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='23.8337'/>
+</g>
+<g display='none'>
+ <rect x='1' y='331' width='640' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.10015' dur='0.015641'/>
+</g>
+<g display='none'>
+ <rect x='1' y='331' width='640' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='23.8337'/>
+</g>
+<g display='none'>
+ <rect x='33' y='346' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+1.68327' dur='0.296645'/>
+</g>
+<g display='none'>
+ <rect x='41' y='346' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+1.97991' dur='0.072372'/>
+</g>
+<g display='none'>
+ <rect x='49' y='346' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+2.05228' dur='0.190013'/>
+</g>
+<g display='none'>
+ <rect x='57' y='346' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+2.2423' dur='0.072572'/>
+</g>
+<g display='none'>
+ <rect x='65' y='346' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+2.31487' dur='0.127871'/>
+</g>
+<g display='none'>
+ <rect x='73' y='346' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+2.44274' dur='2.0021'/>
+</g>
+<g display='none'>
+ <rect x='361' y='346' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+4.44484' dur='0.687434'/>
+</g>
+<g display='none'>
+ <rect x='369' y='346' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+5.13228' dur='0.180524'/>
+</g>
+<g display='none'>
+ <rect x='377' y='346' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+5.3128' dur='0.090425'/>
+</g>
+<g display='none'>
+ <rect x='385' y='346' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+5.40323' dur='0.122418'/>
+</g>
+<g display='none'>
+ <rect x='393' y='346' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+5.52564' dur='0.146613'/>
+</g>
+<g display='none'>
+ <rect x='401' y='346' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+5.67226' dur='0.178035'/>
+</g>
+<g display='none'>
+ <rect x='441' y='346' width='8' height='15' fill='#000000'/>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+5.85029' dur='1.99611'/>
+</g>
+ <!-- Text -->
+<text x='1' y='1' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>File&#160;Edit&#160;Options&#160;Buffers&#160;Tools&#160;Lisp-Interaction&#160;Help&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.10015' dur='0.229178'/>
+</text>
+<text x='1' y='1' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>File&#160;Edit&#160;Options&#160;Buffers&#160;Tools&#160;Sh-Script&#160;Help&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='1.35394'/>
+</text>
+<text x='1' y='1' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>File&#160;Edit&#160;Options&#160;Buffers&#160;Tools&#160;Minibuf&#160;Help&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+1.68327' dur='6.16313'/>
+</text>
+<text x='1' y='1' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>File&#160;Edit&#160;Options&#160;Buffers&#160;Tools&#160;Sh-Script&#160;Help&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+7.8464' dur='16.3166'/>
+</text>
+<text x='1' y='16' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='0.418826'/>
+</text>
+<text x='1' y='16' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.748154' dur='8.1295'/>
+</text>
+<text x='1' y='16' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;Send&#160;lines&#160;one&#160;by&#160;one&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+8.87766' dur='9.816'/>
+</text>
+<text x='1' y='16' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa5500'>bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;Send&#160;lines&#160;one&#160;by&#160;one&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.79082'/>
+</text>
+<text x='1' y='16' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa5500'>bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;echo&#160;bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4845' dur='0.058307'/>
+</text>
+<text x='1' y='16' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa5500'>bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;at&#160;once&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.5428' dur='2.6202'/>
+</text>
+<text x='1' y='31' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;Send&#160;lines&#160;one&#160;by&#160;one&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='8.57791'/>
+</text>
+<text x='1' y='31' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;Send&#160;lines&#160;one&#160;by&#160;one&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+8.90724' dur='1.10545'/>
+</text>
+<text x='1' y='31' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;Send&#160;lines&#160;one&#160;by&#160;one&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;with&#160;C-&lt;return&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+10.0127' dur='8.68097'/>
+</text>
+<text x='1' y='31' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa5500'>EOF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;with&#160;C-&lt;return&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.79082'/>
+</text>
+<text x='1' y='31' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa5500'>EOF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan>bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4845' dur='0.058307'/>
+</text>
+<text x='1' y='31' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa5500'>EOF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;cat&#160;&lt;&lt;EOF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.5428' dur='2.6202'/>
+</text>
+<text x='1' y='46' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;with&#160;C-&lt;return&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='8.54833'/>
+</text>
+<text x='1' y='46' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>#&#160;</tspan><tspan fill='#aa0000'>with&#160;C-&lt;return&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+8.87766' dur='1.13503'/>
+</text>
+<text x='1' y='46' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;with&#160;C-&lt;return&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+10.0127' dur='0.028511'/>
+</text>
+<text x='1' y='46' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;with&#160;C-&lt;return&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+10.0412' dur='1.15048'/>
+</text>
+<text x='1' y='46' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;with&#160;C-&lt;return&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;echo&#160;foo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+11.1917' dur='7.50198'/>
+</text>
+<text x='1' y='46' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;echo&#160;foo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.79082'/>
+</text>
+<text x='1' y='46' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;...&#160;or&#160;send&#160;the&#160;whole&#160;region&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4845' dur='0.058307'/>
+</text>
+<text x='1' y='46' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>&gt;&#160;foo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.5428' dur='2.6202'/>
+</text>
+<text x='1' y='61' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#0000aa' font-weight='bold'>echo&#160;</tspan>foo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='9.68336'/>
+</text>
+<text x='1' y='61' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff' font-weight='bold'>e</tspan><tspan fill='#0000aa' font-weight='bold'>cho&#160;</tspan>foo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+10.0127' dur='1.17899'/>
+</text>
+<text x='1' y='61' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#0000aa' font-weight='bold'>echo&#160;</tspan>foo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>foo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+11.1917' dur='7.50198'/>
+</text>
+<text x='1' y='61' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>foo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.79082'/>
+</text>
+<text x='1' y='61' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;at&#160;once&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4845' dur='0.058307'/>
+</text>
+<text x='1' y='61' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>&gt;&#160;bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.5428' dur='2.6202'/>
+</text>
+<text x='1' y='76' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#0000aa' font-weight='bold'>echo&#160;</tspan>bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='10.8624'/>
+</text>
+<text x='1' y='76' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff' font-weight='bold'>e</tspan><tspan fill='#0000aa' font-weight='bold'>cho&#160;</tspan>bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+11.1917' dur='0.028726'/>
+</text>
+<text x='1' y='76' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff' font-weight='bold'>e</tspan><tspan fill='#0000aa' font-weight='bold'>cho&#160;</tspan>bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+11.2204' dur='1.13414'/>
+</text>
+<text x='1' y='76' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#0000aa' font-weight='bold'>echo&#160;</tspan>bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;echo&#160;bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+12.3546' dur='6.33911'/>
+</text>
+<text x='1' y='76' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aaaaaa'>#&#160;Isend&#160;interacts&#160;with&#160;the&#160;terminal&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;echo&#160;bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.67731'/>
+</text>
+<text x='1' y='76' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;Isend&#160;interacts&#160;with&#160;the&#160;terminal&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;echo&#160;bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.371' dur='0.113508'/>
+</text>
+<text x='1' y='76' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;Isend&#160;interacts&#160;with&#160;the&#160;terminal&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;cat&#160;&lt;&lt;EOF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4845' dur='0.058307'/>
+</text>
+<text x='1' y='76' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;Isend&#160;interacts&#160;with&#160;the&#160;terminal&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan>&gt;&#160;EOF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.5428' dur='2.6202'/>
+</text>
+<text x='1' y='91' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='12.0252'/>
+</text>
+<text x='1' y='91' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+12.3546' dur='6.33911'/>
+</text>
+<text x='1' y='91' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aaaaaa'>#&#160;which&#160;means&#160;the&#160;interpreter&#160;can&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan>bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.67731'/>
+</text>
+<text x='1' y='91' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;which&#160;means&#160;the&#160;interpreter&#160;can&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan>bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.371' dur='0.113508'/>
+</text>
+<text x='1' y='91' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;which&#160;means&#160;the&#160;interpreter&#160;can&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan>&gt;&#160;foo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4845' dur='0.058307'/>
+</text>
+<text x='1' y='91' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;which&#160;means&#160;the&#160;interpreter&#160;can&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan>foo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.5428' dur='2.6202'/>
+</text>
+<text x='1' y='106' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='12.0529'/>
+</text>
+<text x='1' y='106' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+12.3822' dur='3.82134'/>
+</text>
+<text x='1' y='106' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;...&#160;or&#160;send&#160;the&#160;whole&#160;region&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2036' dur='2.49009'/>
+</text>
+<text x='1' y='106' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aaaaaa'>#&#160;change&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;...&#160;or&#160;send&#160;the&#160;whole&#160;region&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.67731'/>
+</text>
+<text x='1' y='106' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;change&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;...&#160;or&#160;send&#160;the&#160;whole&#160;region&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.371' dur='0.113508'/>
+</text>
+<text x='1' y='106' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;change&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan>&gt;&#160;bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4845' dur='0.058307'/>
+</text>
+<text x='1' y='106' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;change&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan>bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.5428' dur='2.6202'/>
+</text>
+<text x='1' y='121' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;...&#160;or&#160;send&#160;the&#160;whole&#160;region&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='12.0252'/>
+</text>
+<text x='1' y='121' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>#&#160;</tspan><tspan fill='#aa0000'>...&#160;or&#160;send&#160;the&#160;whole&#160;region&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+12.3546' dur='1.83707'/>
+</text>
+<text x='1' y='121' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aaaaaa'>#&#160;...&#160;or&#160;send&#160;the&#160;whole&#160;region&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+14.1916' dur='2.01194'/>
+</text>
+<text x='1' y='121' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;...&#160;or&#160;send&#160;the&#160;whole&#160;region&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2036' dur='0.029856'/>
+</text>
+<text x='1' y='121' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;...&#160;or&#160;send&#160;the&#160;whole&#160;region&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;at&#160;once&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2334' dur='2.46024'/>
+</text>
+<text x='1' y='121' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aaaaaa'>python&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;at&#160;once&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.67731'/>
+</text>
+<text x='1' y='121' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ python&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;at&#160;once&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.371' dur='0.113508'/>
+</text>
+<text x='1' y='121' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ python&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>&gt;&#160;EOF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4845' dur='0.058307'/>
+</text>
+<text x='1' y='121' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ python&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;Isend&#160;interacts&#160;with&#160;the&#160;terminal&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.5428' dur='2.6202'/>
+</text>
+<text x='1' y='136' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;at&#160;once&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='13.8623'/>
+</text>
+<text x='1' y='136' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aaaaaa'>#&#160;at&#160;once&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+14.1916' dur='2.01194'/>
+</text>
+<text x='1' y='136' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;at&#160;once&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2036' dur='0.065973'/>
+</text>
+<text x='1' y='136' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;at&#160;once&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;cat&#160;&lt;&lt;EOF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2695' dur='2.42412'/>
+</text>
+<text x='1' y='136' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aaaaaa'>6&#160;*&#160;7&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;cat&#160;&lt;&lt;EOF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.67731'/>
+</text>
+<text x='1' y='136' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ 6&#160;*&#160;7&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;cat&#160;&lt;&lt;EOF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.371' dur='0.113508'/>
+</text>
+<text x='1' y='136' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ 6&#160;*&#160;7&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>foo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4845' dur='0.058307'/>
+</text>
+<text x='1' y='136' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ 6&#160;*&#160;7&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;which&#160;means&#160;the&#160;interpreter&#160;can&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.5428' dur='2.6202'/>
+</text>
+<text x='1' y='151' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ cat&#160;&lt;&lt;EOF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='13.8623'/>
+</text>
+<text x='1' y='151' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aaaaaa'>cat&#160;&lt;&lt;EOF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+14.1916' dur='2.01194'/>
+</text>
+<text x='1' y='151' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ cat&#160;&lt;&lt;EOF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2036' dur='0.065973'/>
+</text>
+<text x='1' y='151' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ cat&#160;&lt;&lt;EOF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>&gt;&#160;foo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2695' dur='2.42412'/>
+</text>
+<text x='1' y='151' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aaaaaa' font-weight='bold'>quit</tspan><tspan fill='#aaaaaa'>()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan>&gt;&#160;foo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.67731'/>
+</text>
+<text x='1' y='151' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#0000aa' font-weight='bold'>quit</tspan>()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>&gt;&#160;foo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.371' dur='0.113508'/>
+</text>
+<text x='1' y='151' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#0000aa' font-weight='bold'>quit</tspan>()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4845' dur='0.058307'/>
+</text>
+<text x='1' y='151' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#0000aa' font-weight='bold'>quit</tspan>()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;change&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.5428' dur='2.6202'/>
+</text>
+<text x='1' y='166' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa5500'>foo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='13.8623'/>
+</text>
+<text x='1' y='166' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aaaaaa'>foo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+14.1916' dur='2.01194'/>
+</text>
+<text x='1' y='166' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa5500'>foo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2036' dur='0.065973'/>
+</text>
+<text x='1' y='166' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa5500'>foo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan>&gt;&#160;bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2695' dur='2.42412'/>
+</text>
+<text x='1' y='166' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>&gt;&#160;bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.79082'/>
+</text>
+<text x='1' y='166' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;Isend&#160;interacts&#160;with&#160;the&#160;terminal&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4845' dur='0.058307'/>
+</text>
+<text x='1' y='166' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;python&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.5428' dur='2.6202'/>
+</text>
+<text x='1' y='181' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa5500'>bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='13.8623'/>
+</text>
+<text x='1' y='181' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aaaaaa'>bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+14.1916' dur='2.01194'/>
+</text>
+<text x='1' y='181' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa5500'>bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2036' dur='0.065973'/>
+</text>
+<text x='1' y='181' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa5500'>bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan>&gt;&#160;EOF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2695' dur='2.42412'/>
+</text>
+<text x='1' y='181' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>&gt;&#160;EOF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.79082'/>
+</text>
+<text x='1' y='181' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;which&#160;means&#160;the&#160;interpreter&#160;can&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4845' dur='0.058307'/>
+</text>
+<text x='1' y='181' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>Python&#160;2.6.6&#160;(r266:84292,&#160;Aug&#160;12&#160;2014,&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.5428' dur='2.6202'/>
+</text>
+<text x='1' y='196' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa5500'>EOF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='13.8623'/>
+</text>
+<text x='1' y='196' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aaaaaa'>EOF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+14.1916' dur='2.01194'/>
+</text>
+<text x='1' y='196' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa5500'>EOF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2036' dur='0.065973'/>
+</text>
+<text x='1' y='196' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa5500'>EOF&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|</tspan>foo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2695' dur='2.42412'/>
+</text>
+<text x='1' y='196' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>foo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.79082'/>
+</text>
+<text x='1' y='196' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;change&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4845' dur='0.058307'/>
+</text>
+<text x='1' y='196' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>07:57:07)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.5428' dur='2.6202'/>
+</text>
+<text x='1' y='211' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='15.9402'/>
+</text>
+<text x='1' y='211' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>bar&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2695' dur='5.21494'/>
+</text>
+<text x='1' y='211' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;python&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4845' dur='0.058307'/>
+</text>
+<text x='1' y='211' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>[GCC&#160;4.4.5]&#160;on&#160;linux2&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.5428' dur='2.6202'/>
+</text>
+<text x='1' y='226' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='15.9636'/>
+</text>
+<text x='1' y='226' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.293' dur='5.07801'/>
+</text>
+<text x='1' y='226' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;Isend&#160;interacts&#160;with&#160;the&#160;terminal&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.371' dur='0.113508'/>
+</text>
+<text x='1' y='226' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>Python&#160;2.6.6&#160;(r266:84292,&#160;Aug&#160;12&#160;2014,&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4845' dur='0.058307'/>
+</text>
+<text x='1' y='226' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>Type&#160;"help",&#160;"copyright",&#160;"credits"&#160;or&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.5428' dur='2.6202'/>
+</text>
+<text x='1' y='241' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;Isend&#160;interacts&#160;with&#160;the&#160;terminal&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='15.8742'/>
+</text>
+<text x='1' y='241' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>#&#160;</tspan><tspan fill='#aa0000'>Isend&#160;interacts&#160;with&#160;the&#160;terminal&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2036' dur='2.49009'/>
+</text>
+<text x='1' y='241' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.70776'/>
+</text>
+<text x='1' y='241' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;which&#160;means&#160;the&#160;interpreter&#160;can&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4014' dur='0.083052'/>
+</text>
+<text x='1' y='241' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>07:57:07)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4845' dur='0.058307'/>
+</text>
+<text x='1' y='241' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>"license"&#160;for&#160;more&#160;information.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.5428' dur='2.6202'/>
+</text>
+<text x='1' y='256' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;which&#160;means&#160;the&#160;interpreter&#160;can&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='18.3643'/>
+</text>
+<text x='1' y='256' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.73718'/>
+</text>
+<text x='1' y='256' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;#&#160;change&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4308' dur='0.05364'/>
+</text>
+<text x='1' y='256' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>[GCC&#160;4.4.5]&#160;on&#160;linux2&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4845' dur='0.058307'/>
+</text>
+<text x='1' y='256' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>&gt;&gt;&gt;&#160;6&#160;*&#160;7&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.5428' dur='2.6202'/>
+</text>
+<text x='1' y='271' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#aa0000'>#&#160;change&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='18.3643'/>
+</text>
+<text x='1' y='271' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.76844'/>
+</text>
+<text x='1' y='271' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;python&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4621' dur='0.022376'/>
+</text>
+<text x='1' y='271' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>Type&#160;"help",&#160;"copyright",&#160;"credits"&#160;or&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4845' dur='0.058307'/>
+</text>
+<text x='1' y='271' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>42&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.5428' dur='2.6202'/>
+</text>
+<text x='1' y='286' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ python&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='18.3643'/>
+</text>
+<text x='1' y='286' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.79082'/>
+</text>
+<text x='1' y='286' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>"license"&#160;for&#160;more&#160;information.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4845' dur='0.058307'/>
+</text>
+<text x='1' y='286' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan>&gt;&gt;&gt;&#160;quit()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.5428' dur='2.6202'/>
+</text>
+<text x='1' y='301' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ 6&#160;*&#160;7&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='18.3643'/>
+</text>
+<text x='1' y='301' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.84912'/>
+</text>
+<text x='1' y='301' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|</tspan><tspan fill='#0000aa' font-weight='bold'>~</tspan>&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.5428' dur='2.6202'/>
+</text>
+<text x='1' y='316' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>-UUU:----F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>*scratch*&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L1&#160;&#160;&#160;&#160;&#160;(Lisp&#160;Interaction)&#160;----------------------</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.115791' dur='0.213537'/>
+</text>
+<text x='1' y='316' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#0000aa' font-weight='bold'>quit</tspan>()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='18.3643'/>
+</text>
+<text x='1' y='316' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill='#ffffff'>|&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='5.46933'/>
+</text>
+<text x='1' y='331' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>-UUU:----F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>*scratch*&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L1&#160;&#160;&#160;&#160;&#160;(Lisp&#160;Interaction)&#160;----------------------</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.10015' dur='0.015641'/>
+</text>
+<text x='1' y='331' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ Loading&#160;/home/H55056/local/perso/projets/git/emacs/isend-mode.el/screencast/tmp\
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.115791' dur='0.158961'/>
+</text>
+<text x='1' y='331' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ Indentation&#160;setup&#160;for&#160;shell&#160;type&#160;bash&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.274752' dur='0.054576'/>
+</text>
+<text x='1' y='331' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>-UU-:----F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>demo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L1&#160;&#160;&#160;&#160;&#160;|-UUU:----F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>*terminal*&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L1&#160;&#160;&#160;&#160;&#160;(</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.329328' dur='0.418826'/>
+</text>
+<text x='1' y='331' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>-UU-:----F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>demo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L1&#160;&#160;&#160;&#160;&#160;|-UUU:**--F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>*terminal*&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L1&#160;&#160;&#160;&#160;&#160;(</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.748154' dur='8.1295'/>
+</text>
+<text x='1' y='331' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>-UU-:----F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>demo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L3&#160;&#160;&#160;&#160;&#160;|-UUU:**--F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>*terminal*&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L2&#160;&#160;&#160;&#160;&#160;(</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+8.87766' dur='1.13503'/>
+</text>
+<text x='1' y='331' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>-UU-:----F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>demo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L4&#160;&#160;&#160;&#160;&#160;|-UUU:**--F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>*terminal*&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L3&#160;&#160;&#160;&#160;&#160;(</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+10.0127' dur='1.17899'/>
+</text>
+<text x='1' y='331' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>-UU-:----F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>demo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L5&#160;&#160;&#160;&#160;&#160;|-UUU:**--F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>*terminal*&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L5&#160;&#160;&#160;&#160;&#160;(</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+11.1917' dur='1.16287'/>
+</text>
+<text x='1' y='331' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>-UU-:----F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>demo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L8&#160;&#160;&#160;&#160;&#160;|-UUU:**--F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>*terminal*&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L7&#160;&#160;&#160;&#160;&#160;(</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+12.3546' dur='1.83707'/>
+</text>
+<text x='1' y='331' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>-UU-:----F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>demo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L14&#160;&#160;&#160;&#160;|-UUU:**--F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>*terminal*&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L7&#160;&#160;&#160;&#160;&#160;(</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+14.1916' dur='2.01194'/>
+</text>
+<text x='1' y='331' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>-UU-:----F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>demo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L16&#160;&#160;&#160;&#160;|-UUU:**--F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>*terminal*&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L8&#160;&#160;&#160;&#160;&#160;(</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2036' dur='0.029856'/>
+</text>
+<text x='1' y='331' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>-UU-:----F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>demo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L16&#160;&#160;&#160;&#160;|-UUU:**--F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>*terminal*&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L9&#160;&#160;&#160;&#160;&#160;(</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2334' dur='0.036117'/>
+</text>
+<text x='1' y='331' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>-UU-:----F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>demo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L16&#160;&#160;&#160;&#160;|-UUU:**--F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>*terminal*&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L15&#160;&#160;&#160;&#160;(</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+16.2695' dur='2.42412'/>
+</text>
+<text x='1' y='331' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>-UU-:----F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>demo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>Bot&#160;L22&#160;&#160;&#160;&#160;|-UUU:**--F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>*terminal*&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L15&#160;&#160;&#160;&#160;(</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.6937' dur='2.67731'/>
+</text>
+<text x='1' y='331' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>-UU-:----F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>demo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>Bot&#160;L22&#160;&#160;&#160;&#160;|-UUU:**--F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>*terminal*&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L16&#160;&#160;&#160;&#160;(</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.371' dur='0.030456'/>
+</text>
+<text x='1' y='331' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>-UU-:----F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>demo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>Bot&#160;L22&#160;&#160;&#160;&#160;|-UUU:**--F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>*terminal*&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L17&#160;&#160;&#160;&#160;(</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4014' dur='0.029412'/>
+</text>
+<text x='1' y='331' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>-UU-:----F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>demo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>Bot&#160;L22&#160;&#160;&#160;&#160;|-UUU:**--F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>*terminal*&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L18&#160;&#160;&#160;&#160;(</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4308' dur='0.031264'/>
+</text>
+<text x='1' y='331' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>-UU-:----F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>demo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>Bot&#160;L22&#160;&#160;&#160;&#160;|-UUU:**--F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>*terminal*&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>All&#160;L19&#160;&#160;&#160;&#160;(</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4621' dur='0.022376'/>
+</text>
+<text x='1' y='331' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>-UU-:----F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>demo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>Bot&#160;L22&#160;&#160;&#160;&#160;|-UUU:**--F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>*terminal*&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>Bot&#160;L24&#160;&#160;&#160;&#160;(</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.4845' dur='0.058307'/>
+</text>
+<text x='1' y='331' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#ffffff'>-UU-:----F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>demo&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>Bot&#160;L22&#160;&#160;&#160;&#160;|-UUU:**--F1&#160;&#160;</tspan><tspan fill='#ffffff' font-weight='bold'>*terminal*&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill='#ffffff'>Bot&#160;L27&#160;&#160;&#160;&#160;(</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+21.5428' dur='2.6202'/>
+</text>
+<text x='1' y='346' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ /isend.el&#160;(source)...&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.115791' dur='0.011861'/>
+</text>
+<text x='1' y='346' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ /isend-mode.el&#160;(source)...&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.127652' dur='0.064156'/>
+</text>
+<text x='1' y='346' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ /isend-mode.el&#160;(source)...done&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+0.191808' dur='0.082944'/>
+</text>
+<text x='1' y='346' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#0000aa'>M-x&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+1.68327' dur='0.296645'/>
+</text>
+<text x='1' y='346' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#0000aa'>M-x&#160;</tspan>i&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+1.97991' dur='0.072372'/>
+</text>
+<text x='1' y='346' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#0000aa'>M-x&#160;</tspan>is&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+2.05228' dur='0.190013'/>
+</text>
+<text x='1' y='346' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#0000aa'>M-x&#160;</tspan>ise&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+2.2423' dur='0.072572'/>
+</text>
+<text x='1' y='346' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#0000aa'>M-x&#160;</tspan>isen&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+2.31487' dur='0.127871'/>
+</text>
+<text x='1' y='346' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#0000aa'>M-x&#160;</tspan>isend&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+2.44274' dur='2.0021'/>
+</text>
+<text x='1' y='346' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#0000aa'>Associate&#160;buffer&#160;to&#160;terminal&#160;(default&#160;demo):&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</tspan>
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+4.44484' dur='0.687434'/>
+</text>
+<text x='1' y='346' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#0000aa'>Associate&#160;buffer&#160;to&#160;terminal&#160;(default&#160;demo):&#160;</tspan>*&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+5.13228' dur='0.180524'/>
+</text>
+<text x='1' y='346' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#0000aa'>Associate&#160;buffer&#160;to&#160;terminal&#160;(default&#160;demo):&#160;</tspan>*t&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+5.3128' dur='0.090425'/>
+</text>
+<text x='1' y='346' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#0000aa'>Associate&#160;buffer&#160;to&#160;terminal&#160;(default&#160;demo):&#160;</tspan>*te&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+5.40323' dur='0.122418'/>
+</text>
+<text x='1' y='346' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#0000aa'>Associate&#160;buffer&#160;to&#160;terminal&#160;(default&#160;demo):&#160;</tspan>*ter&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+5.52564' dur='0.146613'/>
+</text>
+<text x='1' y='346' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#0000aa'>Associate&#160;buffer&#160;to&#160;terminal&#160;(default&#160;demo):&#160;</tspan>*term&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+5.67226' dur='0.178035'/>
+</text>
+<text x='1' y='346' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ <tspan fill='#0000aa'>Associate&#160;buffer&#160;to&#160;terminal&#160;(default&#160;demo):&#160;</tspan>*terminal*&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+5.85029' dur='1.99611'/>
+</text>
+<text x='1' y='346' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ Mark&#160;set&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+13.9988' dur='0.192789'/>
+</text>
+<text x='1' y='346' dominant-baseline='text-before-edge' textLength='640' display='none'>
+ Mark&#160;set&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+ <set attributeType='XML' attributeName='display' to='inline'  begin='start.begin+18.4936' dur='0.200055'/>
+</text>
+</svg>

@@ -1,0 +1,10 @@
+#!/bin/bash
+[ -d tmp ] || git clone $(git remote show origin | grep Fetch | perl -pne 's/^.*: //') tmp
+
+cd tmp
+stty cols 80
+stty rows 24
+script -c "emacs -nw -Q -l ../screencast.el" -t screencast.script 2>screencast.timing
+cp screencast.* ..
+
+script2svg screencast.script screencast.timing -o screencast.svg

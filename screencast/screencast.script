@@ -1,0 +1,179 @@
+Script started on ven. 24 juil. 2015 15:00:06 CEST
+[?1049h[?12;25h[?1h=[H[2J[24d[K[?1l>[?12l[?25h[?1049l[39;49m[?1049h[?12;25h[?1h=[>0c[H[2J[24d[K[H[?25l[7mFile Edit Options Buffers Tools Lisp-Interaction Help                           [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction) ----------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[H
+[?12l[?25h[?12;25h[1;23r[22;1H[1M[1;24r[24;1H[?25l/isend.el (source)...[K[ALoading /home/H55056/local/perso/projets/git/emacs/isend-mode.el/screencast/tmp\
+[A[2d[?12l[?25h[?12;25h[24;22H[?25ldone[H
+[?12l[?25h[?12;25h[24;7H[?25l-mode.el (source)...[H
+[?12l[?25h[?12;25h[24;27H[?25ldone[H
+[?12l[?25h[?12;25h[24d[K[A[?25lSetting up indent for shell type bash[K[H
+[?12l[?25h[?12;25h[23d[?25lIndentation variables are now local.[K[H
+[?12l[?25h[?12;25h[23;13H[?25lsetup for shell type bash[H
+[?12l[?25h[?12;25h[24d[K[H[?25l[7mFile Edit Options Buffers Tools Sh-Script Help                                  [0m[39;49m[27m
+[A
+                                       [7m|[0m[39;49m[27m[K
+[31m# Send lines one by one                [39;49m[7m|[0m[39;49m[27m[K
+[31m# with C-<return>                      [39;49m[7m|[0m[39;49m[27m[K
+[1m[34mecho[0m[39;49m foo                               [7m|[0m[39;49m[27m[K
+[1m[34mecho[0m[39;49m bar                               [7m|[0m[39;49m[27m[K
+                                       [7m|[0m[39;49m[27m[K
+                                       [7m|[0m[39;49m[27m[K
+[31m# ... or send the whole region         [39;49m[7m|[0m[39;49m[27m[K
+[31m# at once                              [39;49m[7m|[0m[39;49m[27m[K
+cat <<EOF[33m                              [39;49m[7m|[0m[39;49m[27m[K
+[33mfoo                                    [39;49m[7m|[0m[39;49m[27m[K
+[33mbar                                    [39;49m[7m|[0m[39;49m[27m[K
+[33mEOF                                    [39;49m[7m|[0m[39;49m[27m[K
+                                       [7m|[0m[39;49m[27m[K
+                                       [7m|[0m[39;49m[27m[K
+[31m# Isend interacts with the terminal    [39;49m[7m|[0m[39;49m[27m[K
+[31m# which means the interpreter can      [39;49m[7m|[0m[39;49m[27m[K
+[31m# change                               [39;49m[7m|[0m[39;49m[27m[K
+python                                 [7m|[0m[39;49m[27m[K
+6 * 7                                  [7m|[0m[39;49m[27m[K
+[1m[34mquit[0m[39;49m()                                 [7m|[0m[39;49m[27m[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mdemo        [0m[39;49m[27m[7m   All L1     [0m[39;49m[27m[7m|[0m[39;49m[27m[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*terminal*  [0m[39;49m[27m[7m   All L1     ([0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[24d[K[H[?25l[7mFile Edit Options Buffers Tools Sh-Script Help                                  [0m[39;49m[27m
+[A
+                                       [7m|[0m[39;49m[27m[K
+[31m# Send lines one by one                [39;49m[7m|[0m[39;49m[27m[K
+[31m# with C-<return>                      [39;49m[7m|[0m[39;49m[27m[K
+[1m[34mecho[0m[39;49m foo                               [7m|[0m[39;49m[27m[K
+[1m[34mecho[0m[39;49m bar                               [7m|[0m[39;49m[27m[K
+                                       [7m|[0m[39;49m[27m[K
+                                       [7m|[0m[39;49m[27m[K
+[31m# ... or send the whole region         [39;49m[7m|[0m[39;49m[27m[K
+[31m# at once                              [39;49m[7m|[0m[39;49m[27m[K
+cat <<EOF[33m                              [39;49m[7m|[0m[39;49m[27m[K
+[33mfoo                                    [39;49m[7m|[0m[39;49m[27m[K
+[33mbar                                    [39;49m[7m|[0m[39;49m[27m[K
+[33mEOF                                    [39;49m[7m|[0m[39;49m[27m[K
+                                       [7m|[0m[39;49m[27m[K
+                                       [7m|[0m[39;49m[27m[K
+[31m# Isend interacts with the terminal    [39;49m[7m|[0m[39;49m[27m[K
+[31m# which means the interpreter can      [39;49m[7m|[0m[39;49m[27m[K
+[31m# change                               [39;49m[7m|[0m[39;49m[27m[K
+python                                 [7m|[0m[39;49m[27m[K
+6 * 7                                  [7m|[0m[39;49m[27m[K
+[1m[34mquit[0m[39;49m()                                 [7m|[0m[39;49m[27m[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mdemo        [0m[39;49m[27m[7m   All L1     [0m[39;49m[27m[7m|[0m[39;49m[27m[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*terminal*  [0m[39;49m[27m[7m   All L1     ([0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h					[?25l[1m[34m~[0m[39;49m> [23;46H[7m**[0m[39;49m[27m[H
+[?12l[?25h[?12;25h[24d[?25l[34mM-x [39;49m[1;33H[7mMinibuf Help  [0m[39;49m[27m[24;5H[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[?25ld[?12l[?25h[?12;25h[?25l[34mAssociate buffer to terminal (default demo): [39;49m[?12l[?25h[?12;25h[?25l*[?12l[?25h[?12;25h[?25lt[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25lm[?12l[?25h[?12;25h[?25linal*[?12l[?25h[?12;25h[K[1;33H[?25l[7mSh-Script Help[0m[39;49m[27m
+[?12l[?25h[?12;25h[2;44H[?25l# Send lines one by one[23;34H[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[2;44H[?25l# Send lines one by one              
+[23;74H[7m2[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[3;41H[?25l[1m[34m~[0m[39;49m> 
+[?12l[?25h[?12;25h[3;44H[?25l# with C-<return>[23;34H[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[3;44H[?25l# with C-<return>                    
+[23;74H[7m3[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[4;41H[?25l[1m[34m~[0m[39;49m> 
+[?12l[?25h[?12;25h[4;44H[?25lecho foo[23;34H[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[4;44H[?25lecho foo                             
+					foo                                     
+[23;74H[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h					[?25l[1m[34m~[0m[39;49m> [?12l[?25h[?12;25h[6;44H[?25lecho bar[23;34H[7m8[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[6;44H[?25lecho bar                             
+					bar                                     
+[23;74H[7m7[0m[39;49m[27m[9;1H[?12l[?25h[?12;25h[8;41H[?25l[1m[34m~[0m[39;49m> 
+[?12l[?25h[?12;25h[24d[?25lMark set[9;1H[?12l[?25h[?12;25h[24d[K[9d[?25l[37m[44m# ... or send the whole region         [39;49m
+[37m[44m# at once                              [39;49m
+[37m[44mcat <<EOF                              [39;49m
+[37m[44mfoo                                    [39;49m
+[37m[44mbar                                    [39;49m
+[37m[44mEOF                                    [39;49m[23;34H[7m14[0m[39;49m[27m[15;1H[?12l[?25h[?12;25h[8;44H[?25l# ... or send the whole region
+[31m# ... or send the whole region         [39;49m[7m|[0m[39;49m[27m# at once
+[31m# at once                              [39;49m[7m|[0m[39;49m[27mcat <<EOF
+cat <<EOF[33m                              [39;49m[7m|[0m[39;49m[27mfoo
+[33mfoo                                    [39;49m[7m|[0m[39;49m[27mbar
+[33mbar                                    [39;49m[7m|[0m[39;49m[27mEOF
+[33mEOF                                    [39;49m[23;35H[7m6[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[8;44H[?25l# ... or send the whole region       
+					[K
+[K
+[K
+[K
+[K[23;74H[7m8[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[9;41H[?25l[1m[34m~[0m[39;49m> # at once                            
+[23;74H[7m9[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[10;41H[?25l[1m[34m~[0m[39;49m> cat <<EOF                            
+					> foo                                   
+					> bar                                   
+					> EOF                                   
+[23;74H[7m13[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[14;41H[?25lfoo                                     
+					bar                                     
+[23;75H[7m5[0m[39;49m[27m[17;1H[?12l[?25h[?12;25h[16;41H[?25l[1m[34m~[0m[39;49m> 
+[?12l[?25h[?12;25h[24d[?25lMark set[17;1H[?12l[?25h[?12;25h[24d[K[2d[?25l[33mbar                                    [39;49m
+[33mEOF                                    [39;49m
+                                       
+        
+[37m[44m# Isend interacts with the terminal    [39;49m
+[37m[44m# which means the interpreter can      [39;49m
+[37m[44m# change                               [39;49m
+[37m[44mpython                                 [39;49m
+[37m[44m6 * 7                                  [39;49m
+[1m[37m[44mquit[0m[39;49m[37m[44m()                                 [39;49m
+                                       
+                                       
+                                       
+
+
+                                       
+                                       
+                                       
+                                       
+                                       
+                                       [23;29H[7mBot L22[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[6d[?25l[31m# Isend interacts with the terminal    [39;49m
+[31m# which means the interpreter can      [39;49m
+[31m# change                               [39;49m
+python                                 
+6 * 7                                  
+[1m[34mquit[0m[39;49m()                                 [16;44H# Isend interacts with the terminal
+					# which means the interpreter can
+					# change
+					python
+6 * 7
+quit()[12;1H[?12l[?25h[?12;25h[16;44H[?25l# Isend interacts with the terminal  
+					[K
+[K
+[K
+[K
+[K[23;75H[7m6[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[17;41H[?25l[1m[34m~[0m[39;49m> # which means the interpreter can    
+[23;75H[7m7[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[18;41H[?25l[1m[34m~[0m[39;49m> # change                             
+[23;75H[7m8[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[19;41H[?25l[1m[34m~[0m[39;49m> python                               
+[23;75H[7m9[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[2;44H[?25lecho bar               [3;41Hbar                 [4;44H# ... or send the whole region[5;41H[1m[34m~[0m[39;49m> # at once[6;44Hcat <<EOF[7;41H> foo
+> bar                            [9;41H> EOF       
+					foo         
+					bar  
+[1m[34m~[0m[39;49m> # Isend interacts with the terminal
+					[1m[34m~[0m[39;49m> # which means the interpreter can
+					[1m[34m~[0m[39;49m> # change
+					[1m[34m~[0m[39;49m> python
+					Python 2.6.6 (r266:84292, Aug 12 2014, [K
+					07:57:07)                           
+					[GCC 4.4.5] on linux2
+					Type "help", "copyright", "credits" or [K
+					"license" for more information.         
+[23;69H[7mBot L24[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[1;20r[12;1H[3M[1;24r[2;44H[?25l# at once[3;41H[1m[34m~[0m[39;49m> cat <<EOF[4;41H> foo                            [5;41H> bar       [6;41H> EOF       [7;41Hfoo  
+bar  
+[1m[34m~[0m[39;49m> # Isend interacts with the terminal
+					[1m[34m~[0m[39;49m> # which means the interpreter can
+					[1m[34m~[0m[39;49m> # change[18;1H                                       [7m|[0m[39;49m[27m>>> 6 * 7                               
+[A
+                                       [7m|[0m[39;49m[27m42                                      
+[A
+                                       [7m|[0m[39;49m[27m>>> quit()                              
+[A
+					[1m[34m~[0m[39;49m> [23;75H[7m7[0m[39;49m[27m[12;1H[?12l[?25h[?12;25h[24d[?25lC-x[12;1H[?12l[?25h[?12;25h[24;4H[?25l-[12;1H[?12l[?25h[?12;25h[24;4H[?25l C-c[12;1H[?12l[?25h[?12;25h[24d[K[?1l>[?12l[?25h[?1049l[39;49m
+Script done on ven. 24 juil. 2015 15:00:30 CEST

@@ -1,0 +1,21 @@
+
+# Send lines one by one
+# with C-<return>
+echo foo
+echo bar
+
+
+# ... or send the whole region
+# at once
+cat <<EOF
+foo
+bar
+EOF
+
+
+# Isend interacts with the terminal
+# which means the interpreter can
+# change
+python
+6 * 7
+quit()
