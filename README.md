@@ -4,9 +4,7 @@
 `term` buffers. Some language-specific modes (e.g. `python.el`) already provide similar features;
 `isend-mode` does the same in a language-agnostic way.
 
-[Screencast][1]
-
-[1]: http://showterm.io/2b2a4b6759004598de4ee#slow
+![screencast](http://ffevotte.github.com/isend-mode.el/screencast/screencast.svg)
 
 
 ## Installation
