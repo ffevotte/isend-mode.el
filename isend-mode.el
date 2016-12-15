@@ -269,7 +269,7 @@ the region is active, all lines spanned by it are sent."
 
      ;; Actually insert the region into the associated buffer
      (with-current-buffer destination
-       (goto-char (point-max))
+       (goto-char (process-mark (get-buffer-process (current-buffer))))
 
        (if region-active
            (funcall isend-send-region-function-1 filtered)
