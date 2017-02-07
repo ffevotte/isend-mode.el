@@ -110,6 +110,14 @@ The variables which can be set to customize `isend`'s behaviour are:
   - `isend--ipython-cpaste` : insert the text within a `%cpaste` command (an `iPython` processes
     is supposed to be running in the associated buffer).
 
+- `isend-mark-defun`: a function that will mark the current "defun" to be sent
+  by `isend-send-defun`.
+
+  Possible values include:
+
+  - `mark-defun` (default): works for LISP-like languages
+  - `isend--python-mark-defun`: marks the current top-level block in a python buffer
+
 
 ### Setup helpers
 
