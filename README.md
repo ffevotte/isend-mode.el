@@ -32,7 +32,9 @@ Then, add the following lines in your Emacs initialization file (`.emacs` or `.e
 ```
 
 
-## Basic usage
+## Usage
+
+### Getting started
 
 The following example demonstrates using `isend-mode` to interact with a shell in an `ansi-term`
 buffer. Please note that any other interpreter could have been used (e.g. python, perl or anything
@@ -55,13 +57,28 @@ else) and `term` would have worked as well.
    moved to the next non-empty line (but see configuration variable `isend-skip-empty-lines`).
 
 
-## Use cases
+### Use cases
 
 - **Interactive demo of a text-based program:** you prepare all the commands you want to run in a
   buffer and interactively send them to the interpreter as if you had typed them.
 
 - **Running interpreted code step by step:** this is for example useful if you often run the same
   list of shell commands but don't want to formally handle all possible errors in a script.
+
+
+### Advanced usage
+
+Apart from `isend-send`, bound by default to <kbd>C-RET</kbd> and described
+above, `isend-mode` defines a few other commands that you are free to use
+interactively and bind to custom keys:
+
+- `isend-send-buffer`: sends the whole buffer. This is functionnally equivalent
+  to calling `mark-whole-buffer` (<kbd>C-x</kbd><kbd>h</kbd>), then `isend-send`.
+
+- `isend-send-defun`: sends the current defun. See the configuration variable
+  `isend-mark-defun-function` for how to mark a function definition.
+
+- `isend-display-buffer`: display the buffer associated to the current one.
 
 
 ## Customization
@@ -102,6 +119,14 @@ The variables which can be set to customize `isend`'s behaviour are:
     buffer (where an `iPython` process is supposed to be running).
   - `isend--ipython-cpaste` : insert the text within a `%cpaste` command (an `iPython` processes
     is supposed to be running in the associated buffer).
+
+- `isend-mark-defun`: a function that will mark the current "defun" to be sent
+  by `isend-send-defun`.
+
+  Possible values include:
+
+  - `mark-defun` (default): works for LISP-like languages
+  - `isend--python-mark-defun`: marks the current top-level block in a python buffer
 
 
 ### Setup helpers
