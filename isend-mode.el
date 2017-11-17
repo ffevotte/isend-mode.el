@@ -377,12 +377,16 @@ Empty lines are skipped if `isend-skip-empty-lines' is non-nil."
         (goto-char (line-beginning-position)))
     (beginning-of-line 2)))
 
+(defun isend--term-send-input ()
+  (term-send-input)
+  (sit-for 0.01)
+  (goto-char (process-mark (get-buffer-process (current-buffer)))))
+
 (defun isend--ipython-cpaste (buf-name)
   ""
-  (insert "%cpaste\n")
-  (insert-buffer-substring buf-name)
-  (insert "\n--")
-  (term-send-input))
+  (insert "%cpaste") (isend--term-send-input)
+  (insert-buffer-substring buf-name) (isend--term-send-input)
+  (insert "--"))
 
 (defun isend--ipython-paste (buf-name)
   ""
