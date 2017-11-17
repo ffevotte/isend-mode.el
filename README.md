@@ -1,4 +1,4 @@
-# isend-mode
+# isend-mode [![MELPA](http://melpa.milkbox.net/packages/isend-mode-badge.svg)](http://melpa.milkbox.net/#/isend-mode)
 
 `isend-mode` is an Emacs extension allowing interaction with code interpreters in `ansi-term` or
 `term` buffers. Some language-specific modes (e.g. `python.el`) already provide similar features;
@@ -8,6 +8,15 @@
 
 
 ## Installation
+
+### From MELPA
+
+The easiest (and recommended) way to get up and running with `isend-mode` is to
+install it through [MELPA](http://melpa.milkbox.net/#/isend-mode). If you're not
+already using MELPA,
+[it's quite easy to setup.](http://melpa.milkbox.net/#/getting-started)
+
+### From sources
 
 Just clone the repository. For example:
 
@@ -23,7 +32,9 @@ Then, add the following lines in your Emacs initialization file (`.emacs` or `.e
 ```
 
 
-## Basic usage
+## Usage
+
+### Getting started
 
 The following example demonstrates using `isend-mode` to interact with a shell in an `ansi-term`
 buffer. Please note that any other interpreter could have been used (e.g. python, perl or anything
@@ -41,18 +52,33 @@ else) and `term` would have worked as well.
    `M-x isend-associate RET *ansi-term* RET`
 
 
-3. Hitting `C-RET` will send the current line to the interpreter. If a region is active, all lines
+3. Hitting <kbd>C-RET</kbd> will send the current line to the interpreter. If a region is active, all lines
    spanned by the region will be sent (i.e. no line will be only partially sent). Point is then
    moved to the next non-empty line (but see configuration variable `isend-skip-empty-lines`).
 
 
-## Use cases
+### Use cases
 
 - **Interactive demo of a text-based program:** you prepare all the commands you want to run in a
   buffer and interactively send them to the interpreter as if you had typed them.
 
 - **Running interpreted code step by step:** this is for example useful if you often run the same
   list of shell commands but don't want to formally handle all possible errors in a script.
+
+
+### Advanced usage
+
+Apart from `isend-send`, bound by default to <kbd>C-RET</kbd> and described
+above, `isend-mode` defines a few other commands that you are free to use
+interactively and bind to custom keys:
+
+- `isend-send-buffer`: sends the whole buffer. This is functionnally equivalent
+  to calling `mark-whole-buffer` (<kbd>C-x</kbd><kbd>h</kbd>), then `isend-send`.
+
+- `isend-send-defun`: sends the current defun. See the configuration variable
+  `isend-mark-defun-function` for how to mark a function definition.
+
+- `isend-display-buffer`: display the buffer associated to the current one.
 
 
 ## Customization
@@ -62,7 +88,7 @@ else) and `term` would have worked as well.
 The variables which can be set to customize `isend`'s behaviour are:
 
 - `isend-forward-line`: if non-nil (default), `isend` advances to the next line after having sent
-  some content using `C-RET`.
+  some content using <kbd>C-RET</kbd>.
 
 - `isend-skip-empty-lines`: if non-nil (default), `isend` will skip empty lines (i.e. lines
   containing only whitespace) and position point on the first following non-empty line. Some
@@ -72,7 +98,7 @@ The variables which can be set to customize `isend`'s behaviour are:
 - `isend-strip-empty-lines`: if non-nil, `isend` will remove empty (or whitespace-only) lines from
   the region before sending it to the interpreter. Note that this only works when sending an entire
   region (as opposed to a single line).
-  
+
 - `isend-delete-indentation`: if non-nil, `isend` will delete indentation from all lines in the
   region. Note that this only works when sending a region (as opposed to a single line). Relative
   indentation w.r.t the first line is preserved. This is useful e.g. to send Python blocks outside
@@ -85,19 +111,28 @@ The variables which can be set to customize `isend`'s behaviour are:
   `isend` to send a line or a region respectively. These functions take as argument the name of a
   buffer containing the text to be sent, and are responsible for copying this text to the
   interpreter buffer.
-  
+
   Possible values include:
+
   - `insert-buffer-substring` (default) : simply insert the text into the buffer.
   - `isend--ipython-paste` : copy the text to the clipoard, and evaluate `%paste` in the interpreter
     buffer (where an `iPython` process is supposed to be running).
   - `isend--ipython-cpaste` : insert the text within a `%cpaste` command (an `iPython` processes
     is supposed to be running in the associated buffer).
 
+- `isend-mark-defun`: a function that will mark the current "defun" to be sent
+  by `isend-send-defun`.
+
+  Possible values include:
+
+  - `mark-defun` (default): works for LISP-like languages
+  - `isend--python-mark-defun`: marks the current top-level block in a python buffer
+
 
 ### Setup helpers
 
 A few helpers are provided to help setup `isend` when working with multiple languages:
-  
+
 ```lisp
 ;; If you work with shell scripts
 (add-hook 'isend-mode-hook 'isend-default-shell-setup)

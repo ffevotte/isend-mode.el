@@ -141,6 +141,17 @@ Possible values include:
 - `isend--ipython-paste'"
   :group 'isend)
 
+;;;###autoload
+(defcustom isend-mark-defun-function 'mark-defun
+  "Function used by `isend-defun' to select a function definition.
+
+This function should take no argument.
+
+Possible values include:
+- `mark-defun' (default)
+- `isend--python-mark-defun'"
+  :group 'isend)
+
 
 
 ;; Setup helpers
@@ -156,8 +167,8 @@ Possible values include:
     (set (make-local-variable 'isend-strip-empty-lines)    nil)
     (set (make-local-variable 'isend-delete-indentation)   nil)
     (set (make-local-variable 'isend-end-with-empty-line)  nil)
-    (set (make-local-variable 'isend-send-line-function)   'insert-buffer-substring)
-    (set (make-local-variable 'isend-send-region-function) 'insert-buffer-substring)))
+    (set (make-local-variable 'isend-send-line-function)   #'insert-buffer-substring)
+    (set (make-local-variable 'isend-send-region-function) #'insert-buffer-substring)))
 
 ;;;###autoload
 (defun isend-default-python-setup ()
@@ -166,8 +177,9 @@ Possible values include:
     (set (make-local-variable 'isend-strip-empty-lines)    t)
     (set (make-local-variable 'isend-delete-indentation)   t)
     (set (make-local-variable 'isend-end-with-empty-line)  t)
-    (set (make-local-variable 'isend-send-line-function)   'insert-buffer-substring)
-    (set (make-local-variable 'isend-send-region-function) 'insert-buffer-substring)))
+    (set (make-local-variable 'isend-send-line-function)   #'insert-buffer-substring)
+    (set (make-local-variable 'isend-send-region-function) #'insert-buffer-substring)
+    (set (make-local-variable 'isend-mark-defun-function)  #'isend--python-mark-defun)))
 
 ;;;###autoload
 (defun isend-default-ipython-setup ()
@@ -176,8 +188,9 @@ Possible values include:
     (set (make-local-variable 'isend-strip-empty-lines)    nil)
     (set (make-local-variable 'isend-delete-indentation)   nil)
     (set (make-local-variable 'isend-end-with-empty-line)  nil)
-    (set (make-local-variable 'isend-send-line-function)   'insert-buffer-substring)
-    (set (make-local-variable 'isend-send-region-function) 'isend--ipython-cpaste)))
+    (set (make-local-variable 'isend-send-line-function)   #'insert-buffer-substring)
+    (set (make-local-variable 'isend-send-region-function) #'isend--ipython-cpaste)
+    (set (make-local-variable 'isend-mark-defun-function)  #'isend--python-mark-defun)))
 
 
 
@@ -290,6 +303,19 @@ the region is active, all lines spanned by it are sent."
    (isend--next-line)))
 
 
+(defun isend-send-buffer ()
+  (interactive)
+  (save-excursion
+    (mark-whole-buffer)
+    (isend-send)))
+
+
+(defun isend-send-defun ()
+  (interactive)
+  (save-excursion
+    (funcall isend-mark-defun-function)
+    (isend-send)))
+
 
 (defun isend-display-buffer ()
   (interactive)
@@ -363,6 +389,23 @@ Empty lines are skipped if `isend-skip-empty-lines' is non-nil."
   (with-current-buffer buf-name
     (clipboard-kill-ring-save (point-min) (point-max)))
   (insert "%paste"))
+
+(defun isend--python-mark-defun ()
+  "Mark the current top-level python block.
+
+A block is defined as in `python-nav-beginning-of-block' and
+`python-nav-end-of-block'. A top-level block begins without
+indentation."
+  (let ((loop t))
+    (while loop
+      (unless (python-nav-beginning-of-block)
+        (error "Not in a python block"))
+      (if (bolp)
+          (setq loop nil)
+        (forward-line -1))))
+  (push-mark (point))
+  (python-nav-end-of-block)
+  (exchange-point-and-mark))
 
 (provide 'isend-mode)
 
