@@ -154,8 +154,10 @@ URL is:
     https://github.com/ffevotte/isend-mode.el.git
 
 
-Many thanks go to [James Porter](https://github.com/porterjamesj) for his contributions on empty
-lines handling.
+Many thanks go to the following contributors:
+- [James Porter](https://github.com/porterjamesj): empty lines handling;
+- [@albertstartup](https://github.com/albertstartup): handling newer version of
+  iPython.
 
 
 ## License
