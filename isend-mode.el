@@ -246,72 +246,74 @@ This should usually be something like '*ansi-term*' or '*terminal*'."
 
 
 (defun isend-send ()
- "Send the current line to a terminal.
+  "Send the current line to a terminal.
 Use `isend-associate' to set the associated terminal buffer. If
 the region is active, all lines spanned by it are sent."
- (interactive)
- (isend--check)
+  (interactive)
+  (isend--check)
 
- (let* ((region-active (region-active-p))
+  (let* ((region-active (region-active-p))
 
-        ;; The region to be sent
-        (bds   (isend--region-boundaries))
-        (begin (car bds))
-        (end   (cdr bds))
+         ;; The region to be sent
+         (bds   (isend--region-boundaries))
+         (begin (car bds))
+         (end   (cdr bds))
 
-        ;; Configuration variables values need to be taken from
-        ;; the origin buffer (they are potentially local)
-        (isend-strip-empty-lines-1    isend-strip-empty-lines)
-        (isend-delete-indentation-1   isend-delete-indentation)
-        (isend-end-with-empty-line-1  isend-end-with-empty-line)
-        (isend-send-region-function-1 isend-send-region-function)
-        (isend-send-line-function-1   isend-send-line-function)
+         ;; Configuration variables values need to be taken from
+         ;; the origin buffer (they are potentially local)
+         (isend-strip-empty-lines-1    isend-strip-empty-lines)
+         (isend-delete-indentation-1   isend-delete-indentation)
+         (isend-end-with-empty-line-1  isend-end-with-empty-line)
+         (isend-send-region-function-1 isend-send-region-function)
+         (isend-send-line-function-1   isend-send-line-function)
 
-        ;; Buffers involved
-        (origin (current-buffer))
-        (destination isend--command-buffer)
-        filtered)
+         ;; Buffers involved
+         (origin (current-buffer))
+         (destination isend--command-buffer)
+         filtered)
 
-   ;; A temporary buffer is used to apply filters
-   (with-temp-buffer
-     (setq filtered (current-buffer))
-     (insert-buffer-substring origin begin end)
+    ;; A temporary buffer is used to apply filters
+    (with-temp-buffer
+      (setq filtered (current-buffer))
+      (insert-buffer-substring origin begin end)
 
-     ;; Apply filters on the region
-     (when region-active
-       (when isend-strip-empty-lines-1
-         (delete-matching-lines "^[[:space:]]*$" (point-min) (point-max)))
+      ;; Apply filters on the region
+      (when region-active
+        (when isend-strip-empty-lines-1
+          (delete-matching-lines "^[[:space:]]*$" (point-min) (point-max)))
 
-       (when isend-delete-indentation-1
-         (goto-char (point-min))
-         (back-to-indentation)
-         (indent-rigidly (point-min) (point-max) (- (current-column))))
+        (when isend-delete-indentation-1
+          (goto-char (point-min))
+          (back-to-indentation)
+          (indent-rigidly (point-min) (point-max) (- (current-column))))
 
-       (when isend-end-with-empty-line-1
-         (goto-char (point-max))
-         (insert "\n")))
+        (when isend-end-with-empty-line-1
+          (goto-char (point-max))
+          (insert "\n")))
 
-     ;; Actually insert the region into the associated buffer
-     (with-current-buffer destination
-       (goto-char (process-mark (get-buffer-process (current-buffer))))
+      ;; Actually insert the region into the associated buffer
+      (with-current-buffer destination
+        (goto-char (process-mark (get-buffer-process (current-buffer))))
 
-       (if region-active
-           (funcall isend-send-region-function-1 filtered)
-         (funcall isend-send-line-function-1 filtered))
+        (if region-active
+            (funcall isend-send-region-function-1 filtered)
+          (funcall isend-send-line-function-1 filtered))
 
-       (cond
-        ;; Terminal buffer: specifically call `term-send-input'
-        ;; to handle both the char and line modes of `ansi-term'.
-        ((eq major-mode 'term-mode)
-         (term-send-input))
+        (cond
+         ;; Terminal buffer: specifically call `term-send-input'
+         ;; to handle both the char and line modes of `ansi-term'.
+         ((eq major-mode 'term-mode)
+          (term-send-input))
 
-        ;; Other buffer: call whatever is bound to 'RET'
-        (t
-         (funcall (key-binding (kbd "RET"))))))))
+         ;; Other buffer: call whatever is bound to 'RET'
+         (t
+          (funcall (key-binding (kbd "RET"))))))))
 
- ;; Move point to the next line
- (when isend-forward-line
-   (isend--next-line)))
+  (deactivate-mark)
+
+  ;; Move point to the next line
+  (when isend-forward-line
+    (isend--next-line)))
 
 
 (defun isend-send-buffer ()
