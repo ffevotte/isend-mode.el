@@ -137,11 +137,15 @@ A few helpers are provided to help setup `isend` when working with multiple lang
 ;; If you work with shell scripts
 (add-hook 'isend-mode-hook 'isend-default-shell-setup)
 
-;; If you work with python scripts using the default python interpreter
+;; If you work with python scripts, one of those could be used (but not both!)
+;;   - default python interpreter
 (add-hook 'isend-mode-hook 'isend-default-python-setup)
 
-;; If you work with python scripts using iPython
+;;   - specific setup for iPython
 (add-hook 'isend-mode-hook 'isend-default-ipython-setup)
+
+;; If you work with julia
+(add-hook 'isend-mode-hook 'isend-default-julia-setup)
 ```
 
 

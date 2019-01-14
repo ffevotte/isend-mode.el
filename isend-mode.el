@@ -192,6 +192,17 @@ Possible values include:
     (set (make-local-variable 'isend-send-region-function) #'isend--ipython-cpaste)
     (set (make-local-variable 'isend-mark-defun-function)  #'isend--python-mark-defun)))
 
+;;;###autoload
+(defun isend-default-julia-setup ()
+  (when (eq major-mode 'julia-mode)
+    (set (make-local-variable 'isend-skip-empty-lines)     t)
+    (set (make-local-variable 'isend-strip-empty-lines)    nil)
+    (set (make-local-variable 'isend-delete-indentation)   nil)
+    (set (make-local-variable 'isend-end-with-empty-line)  nil)
+    (set (make-local-variable 'isend-send-line-function)   #'insert-buffer-substring)
+    (set (make-local-variable 'isend-send-region-function) #'isend--bracketed-paste)
+    (set (make-local-variable 'isend-mark-defun-function)  #'mark-defun)))
+
 
 
 ;; User interface
@@ -376,6 +387,11 @@ Empty lines are skipped if `isend-skip-empty-lines' is non-nil."
       (when (> (skip-chars-forward "[:space:]\n") 0)
         (goto-char (line-beginning-position)))
     (beginning-of-line 2)))
+
+(defun isend--bracketed-paste (buf-name)
+  (insert "\e[200~")
+  (insert-buffer-substring buf-name)
+  (insert "\e[201~"))
 
 (defun isend--term-send-input ()
   (term-send-input)
