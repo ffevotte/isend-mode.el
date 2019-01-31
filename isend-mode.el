@@ -141,7 +141,7 @@ Possible values include:
   :type  'function)
 
 ;;;###autoload
-(defcustom isend-send-region-function 'insert-buffer-substring
+(defcustom isend-send-region-function nil
   "Function used by `isend-send' to send a region.
 
 This function is called in a buffer containing the text to be
@@ -295,7 +295,7 @@ the region is active, all lines spanned by it are sent."
     (with-temp-buffer
       (insert-buffer-substring origin begin end)
 
-      ;; Apply filters on the region
+      ;; Phase 1 - Apply filters on the region
       (when region-active
         (when isend-strip-empty-lines-1
           (delete-matching-lines "^[[:space:]]*$" (point-min) (point-max)))
@@ -319,11 +319,26 @@ the region is active, all lines spanned by it are sent."
         (goto-char (point-min)) (insert "\e[200~")
         (goto-char (point-max)) (insert "\e[201~"))
 
-      ;; Actually insert the region into the associated buffer
-      (term-send-region (get-buffer-process destination)
-                        (point-min) (point-max))
-      (with-current-buffer destination
-        (term-send-input))))
+      ;; Phase 2 - Actually send the region to the associated buffer
+      (let ((filtered (current-buffer)))
+        (with-current-buffer destination
+          ;; Move to the process mark if there is one
+          (if-let ((process (get-buffer-process (current-buffer))))
+              (goto-char (process-mark process)))
+
+          ;; Insert the contents
+          (let ((inhibit-read-only t))
+            (insert-buffer-substring filtered))
+
+          (cond
+           ;; Terminal buffer: specifically call `term-send-input'
+           ;; to handle both the char and line modes of `ansi-term'.
+           ((eq major-mode 'term-mode)
+            (term-send-input))
+
+           ;; Other buffer: call whatever is bound to 'RET'
+           (t
+            (funcall (key-binding (kbd "RET")))))))))
 
   (deactivate-mark)
 
