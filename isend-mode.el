@@ -62,6 +62,9 @@
 ;; Get rid of warning about `term-send-input' not being defined.
 (require 'term)
 
+;; if-let
+(require 'subr-x)
+
 
 
 ;; Customization variables
