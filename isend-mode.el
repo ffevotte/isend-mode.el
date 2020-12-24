@@ -3,6 +3,8 @@
 ;; Copyright (C) 2012 François Févotte
 ;; Author:  François Févotte <fevotte@gmail.com>
 ;; URL:     https://github.com/ffevotte/isend-mode.el
+;; Package-Version: 20190201.832
+;; Package-Commit: 38ace354d579eb364d4f95b9ea16081c171ea604
 ;; Version: 0.2
 
 ;; This file is NOT part of Emacs.
@@ -265,6 +267,11 @@ This should usually be something like '*ansi-term*' or '*terminal*'."
 ;;;###autoload
 (defalias 'isend 'isend-associate)
 
+(defun buffer-whole-string (buffer)
+  (with-current-buffer buffer
+    (save-restriction
+      (widen)
+      (buffer-substring-no-properties (point-min) (point-max)))))
 
 
 (defun isend-send ()
@@ -323,7 +330,8 @@ the region is active, all lines spanned by it are sent."
         (goto-char (point-max)) (insert "\e[201~"))
 
       ;; Phase 2 - Actually send the region to the associated buffer
-      (let ((filtered (current-buffer)))
+      (let ((jk (buffer-whole-string (current-buffer))))
+       (let ((filtered (current-buffer)))
         (with-current-buffer destination
           ;; Move to the process mark if there is one
           (if-let ((process (get-buffer-process (current-buffer))))
@@ -338,10 +346,16 @@ the region is active, all lines spanned by it are sent."
            ;; to handle both the char and line modes of `ansi-term'.
            ((eq major-mode 'term-mode)
             (term-send-input))
+	   ((eq major-mode 'vterm-mode)
+	      (with-current-buffer destination
+		(let ((inhibit-read-only t))
+		  (vterm-send-string jk)
+		  (vterm-send-return))))
+
 
            ;; Other buffer: call whatever is bound to 'RET'
            (t
-            (funcall (key-binding (kbd "RET")))))))))
+            (funcall (key-binding (kbd "RET"))))))))))
 
   (deactivate-mark)
 
