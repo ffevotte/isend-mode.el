@@ -267,11 +267,6 @@ This should usually be something like '*ansi-term*' or '*terminal*'."
 ;;;###autoload
 (defalias 'isend 'isend-associate)
 
-(defun buffer-whole-string (buffer)
-  (with-current-buffer buffer
-    (save-restriction
-      (widen)
-      (buffer-substring-no-properties (point-min) (point-max)))))
 
 
 (defun isend-send ()
@@ -330,32 +325,8 @@ the region is active, all lines spanned by it are sent."
         (goto-char (point-max)) (insert "\e[201~"))
 
       ;; Phase 2 - Actually send the region to the associated buffer
-      (let ((jk (buffer-whole-string (current-buffer))))
-       (let ((filtered (current-buffer)))
-        (with-current-buffer destination
-          ;; Move to the process mark if there is one
-          (if-let ((process (get-buffer-process (current-buffer))))
-              (goto-char (process-mark process)))
-
-          ;; Insert the contents
-          (let ((inhibit-read-only t))
-            (insert-buffer-substring filtered))
-
-          (cond
-           ;; Terminal buffer: specifically call `term-send-input'
-           ;; to handle both the char and line modes of `ansi-term'.
-           ((eq major-mode 'term-mode)
-            (term-send-input))
-	   ((eq major-mode 'vterm-mode)
-	      (with-current-buffer destination
-		(let ((inhibit-read-only t))
-		  (vterm-send-string jk)
-		  (vterm-send-return))))
-
-
-           ;; Other buffer: call whatever is bound to 'RET'
-           (t
-            (funcall (key-binding (kbd "RET"))))))))))
+      (let ((contents (buffer-substring-no-properties (point-min) (point-max))))
+        (isend--send-dest contents destination))))
 
   (deactivate-mark)
 
@@ -440,8 +411,7 @@ Empty lines are skipped if `isend-skip-empty-lines' is non-nil."
 
 (defun isend--ipython-cpaste (destination)
   ""
-  (term-send-string (get-buffer-process destination) "%cpaste\n")
-  (with-current-buffer destination (term-send-input))
+  (isend--send-dest "%cpaste" destination)
   (sleep-for 0.1)
   (goto-char (point-max)) (insert "\n--"))
 
@@ -466,6 +436,47 @@ indentation."
   (push-mark (point))
   (python-nav-end-of-block)
   (exchange-point-and-mark))
+
+
+;; Supported destination buffer types
+
+(defun isend--send-dest (contents destination)
+  (with-current-buffer destination
+    (cond
+     ((eq major-mode 'term-mode)
+      (isend--send-dest-term contents))
+     ((eq major-mode 'vterm-mode)
+      (isend--send-dest-vterm contents))
+     (t
+      (isend--send-dest-default contents)))))
+
+(defun isend--send-dest-default (contents)
+  ;; Move to the process mark if there is one
+  (if-let ((process (get-buffer-process (current-buffer))))
+      (goto-char (process-mark process)))
+
+  ;; Insert the contents
+  (let ((inhibit-read-only t))
+    (insert contents))
+
+  ;; Other buffer: call whatever is bound to 'RET'
+  (funcall (key-binding (kbd "RET"))))
+
+(defun isend--send-dest-term (contents)
+  ;; Move to the process mark
+  (goto-char (process-mark (get-buffer-process (current-buffer))))
+
+  ;; Insert the contents
+  (let ((inhibit-read-only t))
+    (insert contents))
+
+  ;; Send input
+  (term-send-input))
+
+(defun isend--send-dest-vterm (contents)
+  (vterm-send-string contents)
+  (vterm-send-return))
+
 
 (provide 'isend-mode)
 
