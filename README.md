@@ -1,8 +1,9 @@
 # isend-mode [![MELPA](http://melpa.milkbox.net/packages/isend-mode-badge.svg)](http://melpa.milkbox.net/#/isend-mode)
 
-`isend-mode` is an Emacs extension allowing interaction with code interpreters in `ansi-term` or
-`term` buffers. Some language-specific modes (e.g. `python.el`) already provide similar features;
-`isend-mode` does the same in a language-agnostic way.
+`isend-mode` is an Emacs extension allowing interaction with code interpreters
+in `ansi-term`/`term` or `vterm` buffers. Some language-specific modes
+(e.g. `python.el`) already provide similar features; `isend-mode` does the same
+in a language-agnostic way.
 
 ![screencast](http://ffevotte.github.com/isend-mode.el/screencast/screencast.svg)
 
@@ -166,6 +167,7 @@ URL is:
 
 
 Many thanks go to the following contributors:
+- [Soumya Tripathy](https://github.com/Blade6570): vterm support
 - [James Porter](https://github.com/porterjamesj): empty lines handling;
 - [@albertstartup](https://github.com/albertstartup): handling newer version of
   iPython.
