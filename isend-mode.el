@@ -374,6 +374,8 @@ The result is a cons cell of the form (beg . end)"
    ;; If the region is not active and `isend-skip-empty-lines' is non-nil,
    ;; move forward to the first non-empty line.
    (isend-skip-empty-lines
+    ;; in case the line isn't empty, we search from line beginning
+    (goto-char (line-beginning-position))
     (skip-chars-forward "[:space:]\n")
     (cons (point)
           (point)))
