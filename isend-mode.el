@@ -447,6 +447,8 @@ indentation."
       (isend--send-dest-term contents))
      ((eq major-mode 'vterm-mode)
       (isend--send-dest-vterm contents))
+     ((eq major-mode 'eat-mode)
+      (isend--send-dest-eat contents))
      (t
       (isend--send-dest-default contents)))))
 
@@ -477,6 +479,9 @@ indentation."
   (vterm-send-string contents)
   (vterm-send-return))
 
+(defun isend--send-dest-eat (contents)
+  (eat--send-input nil contents)
+  (eat--send-input nil "\n"))
 
 (provide 'isend-mode)
 
