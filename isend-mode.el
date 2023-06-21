@@ -480,8 +480,8 @@ indentation."
   (vterm-send-return))
 
 (defun isend--send-dest-eat (contents)
-  (eat--send-input nil contents)
-  (eat--send-input nil "\n"))
+  (eat-send-string-as-yank eat--terminal contents)
+  (eat-send-string-as-yank eat--terminal "\n"))
 
 (provide 'isend-mode)
 
