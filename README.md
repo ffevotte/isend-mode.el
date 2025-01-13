@@ -5,8 +5,7 @@ in `ansi-term`/`term` or `vterm` buffers. Some language-specific modes
 (e.g. `python.el`) already provide similar features; `isend-mode` does the same
 in a language-agnostic way.
 
-![screencast](http://ffevotte.github.com/isend-mode.el/screencast/screencast.svg)
-
+![screencast](https://raw.githubusercontent.com/ffevotte/isend-mode.el/refs/heads/gh-pages/screencast/screencast.svg)
 
 ## Installation
 
