@@ -1,4 +1,4 @@
-# isend-mode [![MELPA](http://melpa.milkbox.net/packages/isend-mode-badge.svg)](http://melpa.milkbox.net/#/isend-mode)
+# isend-mode [![MELPA](http://melpa.org/packages/isend-mode-badge.svg)](http://melpa.org/#/isend-mode)
 
 `isend-mode` is an Emacs extension allowing interaction with code interpreters
 in `ansi-term`/`term` or `vterm` buffers. Some language-specific modes
@@ -12,9 +12,9 @@ in a language-agnostic way.
 ### From MELPA
 
 The easiest (and recommended) way to get up and running with `isend-mode` is to
-install it through [MELPA](http://melpa.milkbox.net/#/isend-mode). If you're not
+install it through [MELPA](http://melpa.org/#/isend-mode). If you're not
 already using MELPA,
-[it's quite easy to setup.](http://melpa.milkbox.net/#/getting-started)
+[it's quite easy to setup.](http://melpa.org/#/getting-started)
 
 ### From sources
 
